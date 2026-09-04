@@ -46,6 +46,11 @@
 - `account_type` 未指定の場合は、どのプロンプトも生成・判定を進めず、人間に確認を求める。
 - 特に `05-variation-generator.md`（バリエーション生成）と `07-similarity-guard.md`（類似性チェック）でも、`account_type` / `source_account_type` を保持し、個人/法人の文体・CTA・類似基準を反映させる。
 - K2.7 固定運用でも、`account_type` は毎ステップ明示的に入力し、出力にも反映させる。
+- `source_account_type` ≠ `account_type` の場合、単なる文体変換では不十分である。以下を変換先 `account_type` に合わせて変換する:
+  - 反応設計（共感・議論・UGC か、保存・信頼・問い合わせ導線か）
+  - CTA スタイル（リプ募集か、資料請求・無料相談・チェックリストか）
+  - フックの方向性（本音・失敗談か、実務課題・チェック項目か）
+  - リスク許容度（個人の熱量を法人の保存性・説明責任へ変換する）
 
 ### corporate + conservative 時の生成前制約
 
