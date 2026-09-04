@@ -13,14 +13,22 @@ Market Judge が選定した上位 5 本と最終おすすめ 1 本を、人間�
 - Emotion Mapper の感情分類
 - Similarity Guard / Risk Filter のコメント
 - クライアントコンテキスト
+- `account_type`: 投稿先アカウントの種別（`personal` / `corporate`）
+- `source_account_type`: 元投稿アカウントの種別（`personal` / `corporate`）
+- `allowed_persona_expression`: 許可される一人称表現
+- `desired_cta_style`: 希望 CTA スタイル
 
 ## Process
 
-1. 最終提案書のテンプレートに情報を埋める。
-2. 各案の背景（構造・感情・リスク）を簡潔に説明する。
-3. 人間承認用のチェック欄を作成する。
-4. 投稿手順メモを作成する。
-5. 必要に応じて、ハッシュタグや画像の有無を記載する。
+1. `account_type` が未指定の場合は最終パッケージを作成せず、人間に確認を求める。
+2. 最終提案書のテンプレートに情報を埋める。
+3. `account_type` を最終パッケージに明記する。
+4. `personal` / `corporate` 別の投稿可否コメントを出す。
+5. 各案の背景（構造・感情・リスク）を簡潔に説明する。
+6. 人間承認用のチェック欄を作成する。
+7. `account_type` に合った最終目視確認項目を追加する。
+8. 投稿手順メモを作成する。
+9. 必要に応じて、ハッシュタグや画像の有無を記載する。
 
 ## Output Format
 
@@ -28,6 +36,8 @@ Market Judge が選定した上位 5 本と最終おすすめ 1 本を、人間�
 # SNS 投稿提案書
 
 ## クライアント情報
+- account_type:
+- source_account_type:
 - 業種:
 - 商材:
 - ターゲット:
@@ -35,11 +45,20 @@ Market Judge が選定した上位 5 本と最終おすすめ 1 本を、人間�
 - 口調:
 - 文字数条件:
 - ハッシュタグ方針:
+- allowed_persona_expression:
+- desired_cta_style:
 
 ## 元バズ投稿の構造（参考）
 - 出典プラットフォーム:
+- source_account_type:
+- account_type:
 - 構造の要約:
 - 主要感情ドライバー:
+
+## account_type 別投稿可否コメント
+- account_type: [personal / corporate]
+- 適合した点: [3 行以内]
+- 注意点: [3 行以内]
 
 ## 上位 5 本
 
@@ -72,6 +91,8 @@ Market Judge が選定した上位 5 本と最終おすすめ 1 本を、人間�
 - [ ] 事実誤認・誇大広告がない
 - [ ] 元投稿に酷似していない
 - [ ] 炎上リスクがない
+- [ ] `account_type` に適した文体・CTA・一人称になっている
+- [ ] `source_account_type` からの転用調整が適切である
 - [ ] 投稿日時・画像・ハッシュタグを確認した
 - [ ] 最終承認
 
@@ -94,6 +115,7 @@ Market Judge が選定した上位 5 本と最終おすすめ 1 本を、人間�
 - 人間が判断するための情報を欠落させない。
 - リスクコメントを省略しない。
 - 元バズ投稿の文章を提案書にそのまま含めない。
+- `account_type` 未指定のまま最終パッケージを作成しない。
 
 ## Quality Criteria
 
@@ -103,3 +125,5 @@ Market Judge が選定した上位 5 本と最終おすすめ 1 本を、人間�
 - [ ] 承認チェック欄がある
 - [ ] 投稿手順メモがある
 - [ ] 自動投稿を促唆していない
+- [ ] `account_type` が明記されている
+- [ ] `account_type` に合った確認コメントが出ている

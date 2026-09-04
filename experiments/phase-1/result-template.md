@@ -7,6 +7,21 @@
 - **使用モデル**: Kimi K2.7 Code（原則）
 - **実行者**: （任意）
 - **元バズ投稿ファイル**: `test-case-XXX.md`
+- **account_type**: `personal` / `corporate`
+- **source_account_type**: `personal` / `corporate`
+
+---
+
+## account_type 確認欄
+
+- [ ] `account_type` が Step 0 で確定している
+- [ ] `source_account_type` が明記されている
+- [ ] `account_type` と `source_account_type` の組み合わせが意図通りである
+- [ ] `desired_cta_style` が `account_type` に適している
+- [ ] `allowed_persona_expression` が `account_type` に適している
+- [ ] `risk_tolerance` が `account_type` に適している
+
+**備考:**
 
 ---
 
@@ -161,6 +176,36 @@
 - [ ] 3（普通）
 - [ ] 4（少ない）
 - [ ] 5（全く感じない）
+
+**コメント:**
+
+---
+
+## account_type 適合性評価欄
+
+### account_type に合った文体か
+
+- [ ] 1（不適合）
+- [ ] 2（やや不適合）
+- [ ] 3（普通）
+- [ ] 4（適合）
+- [ ] 5（非常に適合）
+
+**コメント:**
+
+### 模倣元アカウント種別（source_account_type）との整合性
+
+- [ ] 元投稿の構造が `source_account_type` に適している
+- [ ] 転用後の表現が `account_type` に適している
+- [ ] `source_account_type` と `account_type` が異なる場合、必要な調整がされている
+
+**コメント:**
+
+### CTA が account_type に合っているか
+
+- [ ] `personal` の場合：リプ・共感・経験募集・問いかけを優先している
+- [ ] `corporate` の場合：無料相談・資料請求・チェックリスト・問い合わせ導線を優先している
+- [ ] CTA が `account_type` と不一致でない
 
 **コメント:**
 

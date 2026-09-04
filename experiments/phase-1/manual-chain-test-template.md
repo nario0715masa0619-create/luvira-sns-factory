@@ -11,6 +11,8 @@
 - **作成日**: YYYY-MM-DD
 - **作成者**: （任意）
 - **使用モデル**: Kimi K2.7 Code（原則）
+- **account_type**: `personal` / `corporate`（必須）
+- **source_account_type**: `personal` / `corporate`（必須）
 
 ---
 
@@ -45,6 +47,17 @@
 
 ## 転用先情報
 
+### account_type
+
+- `personal` または `corporate`
+- 投稿先アカウントの種別
+
+### source_account_type
+
+- `personal` または `corporate`
+- 元バズ投稿アカウントの種別
+- `source_account_type` と `account_type` が異なる場合は、文体・一人称・CTA を必ず調整する
+
 ### 転用先業種
 
 - 例: IT / システム開発 / セキュリティ診断
@@ -62,6 +75,22 @@
 
 - 例: AI エージェントによるセキュリティ診断サービスの認知獲得と、定期診断の必要性の共感獲得。
 
+### desired_cta_style
+
+- 例: `reply` / `experience_sharing` / `discussion` / `consultation` / `document_request` / `checklist`
+- `personal` の場合はリプ・共感・経験募集・問いかけを優先
+- `corporate` の場合は無料相談・資料請求・チェックリスト・問い合わせ導線を優先
+
+### allowed_persona_expression
+
+- 例: `僕 / 私 / 自分`（`personal`）
+- 例: `当社 / 弊社 / 主語省略`（`corporate`）
+
+### risk_tolerance
+
+- `personal` または `corporate`
+- `corporate` はより厳格にリスクを判定する
+
 ### NG 表現
 
 - 「最安値」
@@ -77,6 +106,7 @@
 ### 口調
 
 - 例: 親しみやすい一人称。やわらかく、共感を重視。押し売り感を出さない。
+- `account_type` によって変わる：`personal` は本音・体験談を許容し、`corporate` は客観性・信頼性を優先する。
 
 ### 文字数条件
 
