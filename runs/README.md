@@ -126,8 +126,14 @@ A run may pass through the following statuses (recorded in `run.json`):
    python scripts/approval_package_generator.py --run-id RUN_ID
    ```
 6. Update `run.json` status after each significant state change.
-7. Obtain human approval before posting.
-8. After posting, record `posted_at` and 24h metrics.
+7. Regenerate `runs/index.md` to keep the run list visible:
+
+   ```bash
+   python scripts/run_index_generator.py
+   ```
+
+8. Obtain human approval before posting.
+9. After posting, record `posted_at` and 24h metrics.
 
 ---
 

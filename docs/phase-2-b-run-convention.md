@@ -346,11 +346,17 @@ archived
 12. Execute Market Judge (step 09) and save output.
 13. Execute Final Packager (step 10) and save output.
 14. Create/update `final-candidates.md`, `approval.md`, and `metrics.md`.
-15. Obtain human approval via `approval.md`.
-16. Manually post the approved candidate.
-17. Record `posted_at` in `run.json` and `metrics.md`.
-18. After 24 hours, record metrics in `metrics.md` and update `run.json`.
-19. Archive the run.
+15. Regenerate `runs/index.md` to reflect the latest status:
+
+    ```bash
+    python scripts/run_index_generator.py
+    ```
+
+16. Obtain human approval via `approval.md`.
+17. Manually post the approved candidate.
+18. Record `posted_at` in `run.json` and `metrics.md`.
+19. After 24 hours, record metrics in `metrics.md` and update `run.json`.
+20. Regenerate `runs/index.md` again and archive the run.
 
 ---
 

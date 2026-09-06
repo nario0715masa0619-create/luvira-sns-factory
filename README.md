@@ -115,8 +115,10 @@ Phase 2 introduces lightweight local helpers to reduce manual copy-paste while k
 
 - `scripts/new_run_folder.py` — Generate a new run folder from `templates/`.
 - `scripts/approval_package_generator.py` — Generate `final-candidates.md` and update `approval.md` from step-09/10 outputs.
+- `scripts/run_index_generator.py` — Scan `runs/` and generate `runs/index.md` from each `run.json`.
 - `docs/phase-2-e-run-folder-generator.md` — Run folder generator usage and design details.
 - `docs/phase-2-f-approval-package-generator.md` — Approval package generator usage and design details.
+- `docs/phase-2-g-run-index-generator.md` — Run index generator usage and design details.
 
 These helpers do **not** execute prompts, integrate with APIs, or post automatically.
 

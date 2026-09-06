@@ -357,19 +357,16 @@ The following test run folder contains the acceptance artifacts:
 
 ## 13. Recommended Next Phase
 
-**Phase 2-G: Metrics Package Generator or Run Index Generator**
+**Phase 2-G: Run Index Generator**
 
-After approval and posting, the next helper could be one of:
+After approval and posting, the next helper is the run index generator.
 
-1. **Metrics Package Generator**
-   - Reads posting record and metrics input.
-   - Updates `metrics.md` and `run.json` with final metrics and verdict.
+- Scans all `runs/` folders.
+- Reads each `run.json`.
+- Generates/updates `runs/index.md` with status overview.
+- Does not modify `run.json`, `approval.md`, or `metrics.md`.
 
-2. **Run Index Generator**
-   - Scans all `runs/` folders.
-   - Generates/updates `runs/index.md` with status overview.
-
-Recommended first choice: **Run Index Generator** because it provides visibility across all experiments without requiring manual status tracking.
+See `docs/phase-2-g-run-index-generator.md` for details.
 
 ---
 
