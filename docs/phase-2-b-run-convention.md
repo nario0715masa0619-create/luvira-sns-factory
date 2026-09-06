@@ -336,6 +336,7 @@ archived
 2. Create a new run folder from `templates/`.
 3. Fill in `input.md` and `run.json`.
 4. Execute Pattern Miner (step 01) and save output.
+   Use `scripts/step_input_composer.py` to prepare each step's input Markdown for copy-paste into Kimi/OpenCode.
 5. Execute Emotion Mapper (step 02) and save output.
 6. Execute Skeleton Builder (step 03) and save output.
 7. Execute Adaptation Writer (step 04) and save output.

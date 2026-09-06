@@ -340,16 +340,14 @@ Result: ✅ `runs/20260906-0900-system-dev-corporate-to-personal/run.json` and `
 
 **Phase 2-H: Step Input Composer**
 
-After the run index is in place, the next safe helper is a step input composer that reads the previous step's output and formats the next step's input Markdown for copy-paste.
+After the run index is in place, the next safe helper is a step input composer.
 
 - Reads `step-NN-*.md` and `input.md`
 - Generates `step-(NN+1)-*-input.md`
 - Does not execute prompts
 - Keeps the workflow human-in-the-loop
 
-Alternatively, **Phase 2-H: Metrics Recording Helper** could assist with updating `metrics.md` and `run.json` after 24h metrics are collected manually.
-
-Recommended first choice: **Step Input Composer** because it reduces friction during the 10-step chain, which is the most frequent manual task.
+See `docs/phase-2-h-step-input-composer.md` for details.
 
 ---
 

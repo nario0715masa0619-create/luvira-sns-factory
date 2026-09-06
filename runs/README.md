@@ -119,6 +119,11 @@ A run may pass through the following statuses (recorded in `run.json`):
 2. Name the folder according to the convention above.
 3. Fill in `input.md` and `run.json` from the test case.
 4. Execute the 10 steps manually, saving outputs to `step-NN-*.md`.
+   Use `scripts/step_input_composer.py` to prepare each step's input:
+
+   ```bash
+   python scripts/step_input_composer.py --run-id RUN_ID --next-step 01
+   ```
 5. Generate or update `final-candidates.md`, `approval.md`, and `metrics.md`.
    Use `scripts/approval_package_generator.py` to auto-fill from step-09/10 outputs:
 
