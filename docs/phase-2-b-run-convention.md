@@ -128,7 +128,7 @@ Every run folder must contain the following files before it can be considered co
 
 ## 6. Template Usage
 
-To create a new run:
+To create a new run manually:
 
 1. Create a run folder following the naming convention.
 2. Copy all files from `templates/` into the run folder.
@@ -137,6 +137,18 @@ To create a new run:
 5. Update `run.json` after each completed step.
 6. After step 10, create or update `final-candidates.md`, `approval.md`, and `metrics.md`.
 7. Do not post without a signed-off `approval.md`.
+
+Alternatively, use the helper script:
+
+```bash
+python scripts/new_run_folder.py \
+  --product-service "AI活用型短納期システム開発" \
+  --product-slug system-dev \
+  --source-account-type corporate \
+  --account-type personal
+```
+
+See `docs/phase-2-e-run-folder-generator.md` for details.
 
 ---
 

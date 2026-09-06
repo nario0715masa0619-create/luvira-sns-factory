@@ -74,6 +74,15 @@
 ├── examples/
 │   ├── input-sample.md
 │   └── output-sample.md
+├── scripts/
+│   └── new_run_folder.py
+├── templates/
+│   ├── input.md
+│   ├── run.json
+│   ├── approval.md
+│   └── metrics.md
+├── runs/
+│   └── README.md
 └── experiments/
     └── phase-1/
         ├── README.md
@@ -99,6 +108,15 @@
 - 事実確認できない断定は禁止。
 - 誇大広告、炎上誘発、法務リスクのある表現は採用しない。
 - クライアント機密情報、API キー、`.env`、顧客データをプロンプトやログに投入しない。
+
+## Phase 2 Local Helper
+
+Phase 2 introduces lightweight local helpers to reduce manual copy-paste while keeping the workflow human-in-the-loop.
+
+- `scripts/new_run_folder.py` — Generate a new run folder from `templates/`.
+- `docs/phase-2-e-run-folder-generator.md` — Usage and design details.
+
+These helpers do **not** execute prompts, integrate with APIs, or post automatically.
 
 ## License
 
