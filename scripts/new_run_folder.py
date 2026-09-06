@@ -230,49 +230,49 @@ def prefill_approval_md(src: Path, dest: Path, context: dict) -> None:
     # Ensure Risk Review shows pending for pre-execution state.
     text = re.sub(
         r"^\| (Fabricated experience \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (Unsubstantiated claims \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (Effect guarantee \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (Fear-mongering \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (Account type mismatch \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (CTA mismatch \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (Product pushiness \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )
     text = re.sub(
         r"^\| (Controversy risk \| )pending / low / medium / high / rejected",
-        r"\1pending",
+        r"| \1pending",
         text,
         flags=re.MULTILINE,
     )

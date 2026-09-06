@@ -3,7 +3,7 @@
 ## Run Identification
 
 - run_id: `20260906-1000-system-dev-corporate-to-personal`
-- created_at: `2026-09-06T13:25:15.126569+09:00`
+- created_at: `2026-09-06T13:42:11.641102+09:00`
 - product_service: `AI活用型短納期システム開発`
 - product_slug: `system-dev`
 
@@ -118,4 +118,4 @@ Ensure `source_account_type` and `account_type` are clearly stated.
 - business_goal: `AI活用型短納期システム開発への関心獲得`
 - model: `kimi-k2.7-code`
 - execution_mode: `file_based_semi_automation`
-- created_at: `2026-09-06T13:25:15.126569+09:00`
+- created_at: `2026-09-06T13:42:11.641102+09:00`

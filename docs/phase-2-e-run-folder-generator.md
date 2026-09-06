@@ -421,22 +421,15 @@ The following test run folder is kept as an acceptance artifact:
 
 ## 15. Recommended Next Phase
 
-**Phase 2-F: Step Input Composer or Approval Package Generator**
+**Phase 2-F: Approval Package Generator**
 
-After the run folder generator is in place, the next safe helper is one of:
+After the run folder generator is in place, the next safe helper is the approval package generator.
 
-1. **Step Input Composer**
-   - Reads the previous step output and formats the next step input for copy-paste.
-   - Does not execute prompts.
+- Reads `step-09-market-judge.md` and `step-10-final-packager.md`.
+- Fills `final-candidates.md` and `approval.md` placeholders.
+- Does not perform approval or posting.
 
-2. **Approval Package Generator**
-   - Reads `step-09-market-judge.md` and `step-10-final-packager.md`.
-   - Fills `final-candidates.md` and `approval.md` placeholders.
-   - Does not perform approval or posting.
-
-Either choice keeps the workflow human-in-the-loop while reducing copy-paste effort.
-
-Recommended first choice: **Approval Package Generator** because it reduces the most manual work after all 10 steps are complete.
+See `docs/phase-2-f-approval-package-generator.md` for details.
 
 ---
 

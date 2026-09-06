@@ -120,6 +120,11 @@ A run may pass through the following statuses (recorded in `run.json`):
 3. Fill in `input.md` and `run.json` from the test case.
 4. Execute the 10 steps manually, saving outputs to `step-NN-*.md`.
 5. Generate or update `final-candidates.md`, `approval.md`, and `metrics.md`.
+   Use `scripts/approval_package_generator.py` to auto-fill from step-09/10 outputs:
+
+   ```bash
+   python scripts/approval_package_generator.py --run-id RUN_ID
+   ```
 6. Update `run.json` status after each significant state change.
 7. Obtain human approval before posting.
 8. After posting, record `posted_at` and 24h metrics.

@@ -8,7 +8,7 @@
 - account_type: `personal`
 - desired_cta_style: `reply / discussion / experience_sharing`
 - risk_tolerance: `balanced`
-- created_at: `2026-09-06T13:25:15.126569+09:00`
+- created_at: `2026-09-06T13:42:11.641102+09:00`
 
 ---
 
@@ -17,31 +17,31 @@
 ### Candidate 01
 
 ```text
-[CANDIDATE_01_TEXT]
+「1人で開発してると、誰にも相談できない夜が続く。AIに設計を投げてみたら、翌朝には整理された PR が返ってきた。まだ人間の目は必要だけど、孤独な深夜が少し減った。」
 ```
 
 ### Candidate 02
 
 ```text
-[CANDIDATE_02_TEXT]
+「短納期のシステム開発、本当に必要なのはスピードじゃなくて「間違いに気づく仕組み」だった。AI で網羅的にレビューして、人間が最後の判断をする。こういう分担、最近はまっている。」
 ```
 
 ### Candidate 03
 
 ```text
-[CANDIDATE_03_TEXT]
+「『AI使えば早くなる』は半分ウソ。でも『AIに下積みを任せて、人間が本質に集中する』は本当。先週の案件、設計の壁打ち相手が AI になって、睡眠時間が 2 時間増えた気がする。」
 ```
 
 ### Candidate 04
 
 ```text
-[CANDIDATE_04_TEXT]
+「個人で受けるシステム開発、一番のリスクは見積もりの甘さ。AIに過去案件を学習させて工数を積み上げたら、提案精度が一段上がった。数字で話せる安心感がある。」
 ```
 
 ### Candidate 05
 
 ```text
-[CANDIDATE_05_TEXT]
+「小規模開発でも、設計書・テスト・運用ドキュメントは必要。AI に雛形を作ってもらい、人間が現場の文脈を足す。これが個人開発者の生存戦略になってきた。」
 ```
 
 ---
@@ -50,31 +50,31 @@
 
 | candidate_id | market_score | judge_comment | selected |
 |--------------|--------------|---------------|----------|
-| 01 | `SCORE` | `COMMENT` | `yes / no` |
-| 02 | `SCORE` | `COMMENT` | `yes / no` |
-| 03 | `SCORE` | `COMMENT` | `yes / no` |
-| 04 | `SCORE` | `COMMENT` | `yes / no` |
-| 05 | `SCORE` | `COMMENT` | `yes / no` |
+| 01 | `29` | `共感とフックが強く、個人アカウントに最適` | `no` |
+| 02 | `26` | `バランス型だが斬新さに欠ける` | `no` |
+| 03 | `27` | `フック力は高いが企業色が微かに残る` | `yes` |
+| 04 | `25` | `ブランド適合度は高いが広告臭を感じる` | `no` |
+| 05 | `22` | `情報量は多いがリプ誘発力が弱い` | `no` |
 
 ### Notes
 
-[MARKET_JUDGE_SUMMARY_NOTES]
+Auto-generated from step-09-market-judge.md. Recommended candidate: 03.
 
 ---
 
 ## Recommended Candidate
 
-### Candidate 01
+### Candidate 03
 
 ```text
-[RECOMMENDED_CANDIDATE_TEXT]
+「『AI使えば早くなる』は半分ウソ。でも『AIに下積みを任せて、人間が本質に集中する』は本当。先週の案件、設計の壁打ち相手が AI になって、睡眠時間が 2 時間増えた気がする。」
 ```
 
 ### Selection Reason
 
-- [SELECTION_REASON_01]
-- [SELECTION_REASON_02]
-- [SELECTION_REASON_03]
+- フック力と共感度が両立
+- 個人アカウントに適した体験共有
+- 自然なリプ誘発が期待できる
 
 ---
 
@@ -99,14 +99,14 @@
 
 | Risk Category | Level | Notes |
 |---------------|-------|-------|
-Fabricated experience | pending | |
-Unsubstantiated claims | pending | |
-Effect guarantee | pending | |
-Fear-mongering | pending | |
-Account type mismatch | pending | |
-CTA mismatch | pending | |
-Product pushiness | pending | |
-Controversy risk | pending | |
+| Fabricated experience | pending | |
+| Unsubstantiated claims | pending | |
+| Effect guarantee | pending | |
+| Fear-mongering | pending | |
+| Account type mismatch | pending | |
+| CTA mismatch | pending | |
+| Product pushiness | pending | |
+| Controversy risk | pending | |
 
 ---
 
@@ -178,7 +178,7 @@ Before posting, confirm all of the following:
 
 ## Posting Record
 
-- posted_at: `2026-09-06T13:25:15.126569+09:00`
+- posted_at: `2026-09-06T13:42:11.641102+09:00`
 - post_url: `https://...`
 - posted_by: `NAME`
 - platform: `X`
@@ -187,7 +187,7 @@ Before posting, confirm all of the following:
 
 ## 24h Metrics Record
 
-- metrics_due_at: `2026-09-06T13:25:15.126569+09:00`
+- metrics_due_at: `2026-09-06T13:42:11.641102+09:00`
 - impressions_24h: ``
 - engagement_24h: ``
 - replies_24h: ``
@@ -217,4 +217,4 @@ Before posting, confirm all of the following:
 - business_goal: `AI活用型短納期システム開発への関心獲得`
 - model: `kimi-k2.7-code`
 - execution_mode: `file_based_semi_automation`
-- created_at: `2026-09-06T13:25:15.126569+09:00`
+- created_at: `2026-09-06T13:42:11.641102+09:00`

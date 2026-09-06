@@ -136,6 +136,11 @@ To create a new run manually:
 4. Execute each step manually, saving outputs to `step-NN-*.md`.
 5. Update `run.json` after each completed step.
 6. After step 10, create or update `final-candidates.md`, `approval.md`, and `metrics.md`.
+   Use `scripts/approval_package_generator.py` to auto-fill from step-09/10 outputs:
+
+   ```bash
+   python scripts/approval_package_generator.py --run-id RUN_ID
+   ```
 7. Do not post without a signed-off `approval.md`.
 
 Alternatively, use the helper script:
