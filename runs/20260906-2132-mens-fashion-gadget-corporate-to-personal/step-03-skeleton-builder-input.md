@@ -1,0 +1,194 @@
+# Step 03: Skeleton Builder Input
+
+## Run Metadata
+
+- run_id: `20260906-2132-mens-fashion-gadget-corporate-to-personal`
+- product_service: `40代男性向けファッション・ガジェット情報発信`
+- product_slug: `mens-fashion-gadget`
+- source_account_type: `corporate`
+- account_type: `personal`
+- desired_cta_style: `reply / discussion / experience_sharing`
+- allowed_persona_expression: `僕 / 私 / 自分 / 主語省略`
+- risk_tolerance: `balanced`
+- target_platform: `X`
+- target_audience: `40代男性 / 経営者 / 個人事業主 / 営業職 / 見た目と仕事道具を整えたい人`
+- business_goal: `40代男性向けファッション×ガジェット投稿の反応獲得`
+- model: `kimi-k2.7-code`
+- execution_mode: `file_based_semi_automation`
+- status: `draft`
+- current_step: `-`
+
+## Source Input
+
+The following content is the output from the previous step. Use it as the primary input for the next step.
+
+## 感情マッピング結果
+
+### 元構造の感情導線
+
+| セクション | 主要感情 | 誘発する反応 |
+|------------|----------|--------------|
+| フック | 共感・気づき | 「自分も当てはまるかも」 |
+| テーマ提示 | 期待・発見 | 「何が得られるか」 |
+| アイテム紹介 | 憧れ・実用感 | 「欲しい」「参考になる」 |
+| 選び方 | 信頼・安心 | 「プロだな」「安心できる」 |
+| CTA | 行動意欲 | 「保存/フォロー」 |
+
+### 各感情の強度（1-5）
+
+- 共感: 4
+- 発見: 4
+- 憧れ: 3
+- 安心: 4
+- 信頼: 3
+- 行動意欲: 3
+
+### 個人アカウント向け感情設計
+
+#### 元の感情（corporate）
+
+- 読者は「情報を教えてもらう」立場
+- 感情の流れ: 共感 → 発見 → 信頼 → 行動
+
+#### 転用後の感情（personal）
+
+- 読者は「同じ目線の人の体験を聞く」立場
+- 感情の流れ: 気づき → 共感 → 「自分もできる」 → 参加欲
+
+### personal アカウントで強調すべき感情
+
+1. **同年代の共感**
+   - 「40代になって気づいた」という親近感
+   - 法人投稿の「おすすめ」→ 個人の「自分もやった」
+
+2. **「無理なくできる」安心感**
+   - 高級感より清潔感
+   - 若作りではなく整って見えること
+
+3. **「真似したい」参加欲**
+   - 具体例を提示しつつ「あなたはどう？」と問う
+   - 返信・体験共有を促す
+
+### 避けるべき感情
+
+- 押し付け感（「これを買え」）
+- 焦燥感（「もう遅い」）
+- 企業宣伝感（商材を前面に出しすぎ）
+- 見下し感（「あなたはダサい」）
+
+### 感情キーワード
+
+- 個人アカウントで使うと効果的な表現:
+  - 「40代になって気づいた」「最近変えた」
+  - 「これ、地味に大事」「意外と見られてる」
+  - 「自分も試してみて」「おすすめしたい」
+  - 「みんなはどうしてる？」「教えてほしい」
+
+### 感情の流れ（転用後）
+
+```
+[フック] 自分のあるあるや気づき
+    ↓
+[テーマ] 「最近変えてよかったこと」
+    ↓
+[自分語り] 実際に買ってよかったもの
+    ↓
+[気づき] 年齢を重ねてからの価値観
+    ↓
+[CTA] 返信・共有・体験談
+```
+
+### Risk Notes
+
+- 個人の体験として語る際、架空の購入経験を断定的に述べない
+- 「みんな」「40代男性は」という一般化は避ける
+- ブランド名や価格を出す場合は客観的に
+- 元投稿の構造は参考にしつつ、個人アカウントらしい謙虚さを保つ
+
+
+## Prompt To Apply
+
+Apply the following prompt to the Source Input above.
+
+## Role
+
+Skeleton Builder（骨格作成 AI）
+
+## Objective
+
+Pattern Miner と Emotion Mapper の分析結果から、クライアント用に置換可能な「投稿骨格」を作成する。
+
+## Inputs
+
+- Pattern Miner の構造分析
+- Emotion Mapper の感情分類
+- クライアント商材・業種・ターゲット（簡易情報）
+
+## Process
+
+1. 構造分析からテンプレート化できる要素を抽出する。
+2. 可変部分と固定部分を明確に分ける。
+3. 各セクションの役割を簡潔に書く。
+4. 感情導線を骨格に組み込む。
+5. クライアントの商材・ターゲットに置換しやすい形にする。
+
+## Output Format
+
+```markdown
+## 投稿骨格
+
+### 前提
+- 対象プラットフォーム:
+- 想定文字数:
+- 想定業種:
+
+### 骨格テンプレート
+```
+[フック]: {読者の注意を引く問いかけまたは宣言}
+[セクション 1]: {共感を誘発する導入}
+[セクション 2]: {具体例・事例を 1 つ目}
+[セクション 3]: {具体例・事例を 2 つ目}
+[セクション 4]: {結論・メッセージ}
+[CTA]: {読者に促す小さな行動}
+```
+
+### 可変部分
+- {フックの対象}
+- {具体例の内容}
+- {CTA の内容}
+
+### 固定部分
+- セクションの順序
+- 各セクションの役割
+- 感情導線の流れ
+
+### 感情導線
+1. [感情 A]: [どのセクションで生まれるか]
+2. [感情 B]: [どのセクションで生まれるか]
+3. [感情 C]: [どのセクションで生まれるか]
+```
+
+## Do Not
+
+- 具体的な商品名やキャンペーン名を勝手に入れない。
+- 元投稿の固有名詞をそのまま使わない。
+- 骨格を特定のクライアントに過度に寄せない。
+- 元投稿の文章をコピーしない。
+
+## Quality Criteria
+
+- [ ] 可変部分と固定部分が明確
+- [ ] 各セクションの役割が明確
+- [ ] 感情導線が骨格に組み込まれている
+- [ ] クライアント情報に置換しやすい
+- [ ] 元投稿の文言を含まない
+
+
+## Execution Instruction
+
+1. Copy the entire content of this file (`step-03-skeleton-builder-input.md`).
+2. Paste it into Kimi/OpenCode as a new request.
+3. Save the AI response to `step-03-skeleton-builder.md` in the same run folder.
+4. Review the output before proceeding to the next step.
+
+> **Important:** This is a manual step. The script does not execute prompts, call APIs, or post automatically.
