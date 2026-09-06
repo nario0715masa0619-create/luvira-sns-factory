@@ -90,7 +90,7 @@ runs/YYYYMMDD-HHMM-{product-slug}-{source-account-type}-to-{account-type}/
 |-----------|-------------|
 | `YYYYMMDD` | Run creation date |
 | `HHMM` | Run creation time (24-hour, local time) |
-| `{product-slug}` | Short product identifier |
+| `{product-slug}` | Short product identifier used in `run.json` and `input.md`. Use lowercase English letters, numbers, and hyphens only. Avoid spaces, Japanese characters, and symbols. |
 | `{source-account-type}` | `personal` or `corporate` |
 | `{account-type}` | `personal` or `corporate` |
 
@@ -143,6 +143,7 @@ To create a new run:
 ## 7. Run Metadata Rules
 
 - `run_id` must match the run folder name.
+- `product_slug` must match the `{product-slug}` segment of the run folder name. Use lowercase English letters, numbers, and hyphens only.
 - `source_account_type` and `account_type` must match the folder name and `input.md`.
 - `status` must be updated after every major state change.
 - `current_step` must reflect the latest completed or in-progress step.
@@ -150,6 +151,16 @@ To create a new run:
 - `human_approved` may only become `true` after a human signs `approval.md`.
 - `posted_at` may only be set after actual manual posting.
 - `metrics_due_at` must be `posted_at + 24 hours`.
+
+### `execution_mode` Allowed Values
+
+| Value | Meaning |
+|-------|---------|
+| `manual` | Fully manual run without template assistance. |
+| `manual_template_dry_run` | Template validation run with no actual step outputs. |
+| `file_based_semi_automation` | Standard Phase 2 operation: templates + human-in-the-loop. |
+| `assisted_generation` | Helper-assisted run; AI execution still performed by a human. |
+| `archived_experiment` | Stored historical experiment, not under active development. |
 
 ---
 
@@ -164,6 +175,8 @@ To create a new run:
 - If "Approved with edits", the edited text must be recorded in `approval.md`.
 - If "Regenerate required", the reason must be recorded, and the run returns to `in_progress`.
 - The `Pre-Post Checklist` in `approval.md` must be fully checked before posting.
+- The `Market Judge Summary` section in `approval.md` should be filled so the approver can see the scoring context for the top 5 candidates.
+- In the `Risk Review` section, `pending` is acceptable before step 08 Risk Filter output exists. After step 08, each row must be updated to `low`, `medium`, `high`, or `rejected`. Human approval is **not allowed** while any risk row remains `pending`.
 
 ---
 
@@ -171,6 +184,12 @@ To create a new run:
 
 - `metrics.md` is filled in after the post has been live for 24 hours.
 - Metrics should be recorded as close to the 24-hour mark as possible.
+- `engagement_rate_24h` is recorded as a percentage, e.g. `3.5%`.
+- Calculate engagement rate as:
+  ```text
+  engagement_rate_24h = (likes_24h + comments_24h + reposts_24h + saves_24h) / impressions_24h * 100
+  ```
+- If `impressions_24h` is 0 or not recorded, leave `engagement_rate_24h` blank or use `result_verdict: invalid_missing_metrics`.
 - If metrics cannot be recorded, use `result_verdict: invalid_missing_metrics`.
 - If the posted text differed from the approved candidate, use `result_verdict: invalid_changed_post`.
 - Missing metrics do not invalidate the post, but they prevent reliable win/loss evaluation.
@@ -318,9 +337,9 @@ archived
 
 ---
 
-## 15. Phase 2-C Candidate Work
+## 15. Phase 2-D Candidate Work
 
-Phase 2-C may introduce lightweight helpers that do **not** perform automatic posting or API calls.
+Phase 2-D may introduce lightweight helpers that do **not** perform automatic posting or API calls.
 
 Possible candidates:
 
@@ -339,7 +358,7 @@ Possible candidates:
 5. **run index updater**
    - Scan `runs/` and update `runs/index.md` with status summary.
 
-### Phase 2-C Non-Goals
+### Phase 2-D Non-Goals
 
 - No CLI that executes prompts automatically.
 - No API integration.
@@ -349,7 +368,32 @@ Possible candidates:
 
 ---
 
-## 16. References
+## 16. Phase 2-D Template Refinement History
+
+The following minor refinements were applied in Phase 2-D based on the Phase 2-C dry run review:
+
+1. **Added `product_slug` field**
+   - Added to `templates/input.md`, `templates/run.json`, and folder naming convention.
+   - Ensures consistency between run folder names and metadata.
+
+2. **Documented `execution_mode` allowed values**
+   - Added `manual`, `manual_template_dry_run`, `file_based_semi_automation`, `assisted_generation`, `archived_experiment`.
+
+3. **Added Market Judge Summary to `approval.md`**
+   - Helps approvers understand the scoring context for the top 5 candidates.
+
+4. **Clarified `engagement_rate_24h` unit and formula**
+   - Recorded as a percentage.
+   - Formula documented in `templates/metrics.md` and convention doc.
+
+5. **Clarified Risk Review `pending` handling**
+   - `pending` is acceptable before step 08 Risk Filter output exists.
+   - After step 08, rows must be updated to `low`, `medium`, `high`, or `rejected`.
+   - Human approval is not allowed while any risk row remains `pending`.
+
+---
+
+## 17. References
 
 - `docs/phase-2-local-assist-design.md`
 - `experiments/phase-1/PHASE-1-CLOSURE-REVIEW.md`

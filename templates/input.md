@@ -5,6 +5,11 @@
 - run_id: `RUN_ID`
 - created_at: `YYYY-MM-DDTHH:MM:SS+09:00`
 - product_service: `PRODUCT_NAME`
+- product_slug: `PRODUCT_SLUG`
+
+> `product_slug` is a short identifier used for the run folder name.  
+> Use lowercase English letters, numbers, and hyphens only. Avoid spaces, Japanese characters, and symbols.  
+> Examples: `security-diagnosis`, `system-dev`, `line-ai-advisor`
 
 ## Client Context
 

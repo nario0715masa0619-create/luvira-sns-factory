@@ -46,6 +46,22 @@
 
 ---
 
+## Market Judge Summary
+
+| candidate_id | market_score | judge_comment | selected |
+|--------------|--------------|---------------|----------|
+| 01 | `SCORE` | `COMMENT` | `yes / no` |
+| 02 | `SCORE` | `COMMENT` | `yes / no` |
+| 03 | `SCORE` | `COMMENT` | `yes / no` |
+| 04 | `SCORE` | `COMMENT` | `yes / no` |
+| 05 | `SCORE` | `COMMENT` | `yes / no` |
+
+### Notes
+
+[MARKET_JUDGE_SUMMARY_NOTES]
+
+---
+
 ## Recommended Candidate
 
 ### Candidate 01
@@ -77,16 +93,20 @@
 
 ## Risk Review
 
+> **Note:** Before step 08 Risk Filter output exists, `pending` may be recorded.  
+> After step 08, update each row to `low`, `medium`, `high`, or `rejected`.  
+> Human approval is **not allowed** while any risk row remains `pending`.
+
 | Risk Category | Level | Notes |
 |---------------|-------|-------|
-| Fabricated experience | low / medium / high | |
-| Unsubstantiated claims | low / medium / high | |
-| Effect guarantee | low / medium / high | |
-| Fear-mongering | low / medium / high | |
-| Account type mismatch | low / medium / high | |
-| CTA mismatch | low / medium / high | |
-| Product pushiness | low / medium / high | |
-| Controversy risk | low / medium / high | |
+| Fabricated experience | pending / low / medium / high / rejected | |
+| Unsubstantiated claims | pending / low / medium / high / rejected | |
+| Effect guarantee | pending / low / medium / high / rejected | |
+| Fear-mongering | pending / low / medium / high / rejected | |
+| Account type mismatch | pending / low / medium / high / rejected | |
+| CTA mismatch | pending / low / medium / high / rejected | |
+| Product pushiness | pending / low / medium / high / rejected | |
+| Controversy risk | pending / low / medium / high / rejected | |
 
 ---
 

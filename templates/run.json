@@ -3,6 +3,7 @@
   "created_at": "YYYY-MM-DDTHH:MM:SS+09:00",
   "updated_at": "YYYY-MM-DDTHH:MM:SS+09:00",
   "product_service": "PRODUCT_NAME",
+  "product_slug": "PRODUCT_SLUG",
   "client_context": {
     "industry": "INDUSTRY",
     "target_audience": "TARGET_AUDIENCE",
@@ -25,7 +26,14 @@
   "business_goal": "BUSINESS_GOAL",
   "prompt_version": "phase-1-final",
   "model": "kimi-k2.7-code",
-  "execution_mode": "manual_with_file_templates",
+  "execution_mode": "file_based_semi_automation",
+  "_execution_mode_allowed_values": {
+    "manual": "Fully manual run without template assistance.",
+    "manual_template_dry_run": "Template validation run with no actual step outputs.",
+    "file_based_semi_automation": "Standard Phase 2 operation: templates + human-in-the-loop.",
+    "assisted_generation": "Helper-assisted run; AI execution still performed by a human.",
+    "archived_experiment": "Stored historical experiment, not under active development."
+  },
   "status": "draft",
   "current_step": null,
   "steps": [

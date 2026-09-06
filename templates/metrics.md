@@ -28,6 +28,15 @@
 | link_clicks_24h | `NUMBER` |
 | engagement_rate_24h | `PERCENTAGE` |
 
+### Engagement Rate Calculation
+
+```text
+engagement_rate_24h = (likes_24h + comments_24h + reposts_24h + saves_24h) / impressions_24h * 100
+```
+
+- Record as a percentage, e.g. `3.5%`.
+- If `impressions_24h` is 0 or not recorded, leave this field blank or use `result_verdict: invalid_missing_metrics`.
+
 ## Qualitative Notes
 
 [QUALITATIVE_NOTES]
