@@ -60,7 +60,8 @@
 │   ├── experiment-design.md
 │   ├── safety-policy.md
 │   ├── data-schema.md
-│   └── phase-3-a-cold-start-pdca-execution-design.md
+│   ├── phase-3-a-cold-start-pdca-execution-design.md
+│   └── phase-3-b-pdca-templates-and-learning-store.md
 ├── prompts/
 │   ├── 01-pattern-miner.md
 │   ├── 02-emotion-mapper.md
@@ -81,7 +82,16 @@
 │   ├── input.md
 │   ├── run.json
 │   ├── approval.md
-│   └── metrics.md
+│   ├── metrics.md
+│   ├── post-analysis.md
+│   ├── learning-brief.md
+│   └── next-run-recommendation.md
+├── knowledge/
+│   └── mens-fashion-gadget/
+│       ├── experiment-log.md
+│       ├── hypothesis-pool.md
+│       ├── experiment-queue.md
+│       └── audience-insights.md
 ├── runs/
 │   └── README.md
 └── experiments/
