@@ -57,7 +57,7 @@
 - 口調
 - 文字数条件
 - 画像有無
-- ハッシュタグ方針
+- ハッシュタグ方針（該当ジャンルの canonical hashtag strategy がある場合はそこに従う）
 - `desired_cta_style`: 希望 CTA スタイル
 - `allowed_persona_expression`: 許可される一人称表現
 - `risk_tolerance`: リスク許容度

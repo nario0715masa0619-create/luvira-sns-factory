@@ -18,7 +18,7 @@
 - posting_purpose: `POSTING_PURPOSE`
 - tone: `TONE`
 - character_limit: `200`
-- hashtag_policy: `MAX_2_HASHTAGS`
+- hashtag_policy: `MAX_2_HASHTAGS; follow knowledge/{product_slug}/hashtag-strategy.md for Target Tag / Content Angle Tag selection. Do not add, remove, or change tags without explicit instruction.`
 
 ## Account Configuration
 

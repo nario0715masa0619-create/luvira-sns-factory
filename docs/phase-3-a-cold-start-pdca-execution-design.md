@@ -868,6 +868,46 @@ PDCA でも人間判断を必須にする。
 9. 勝ちパターン化は再現性確認後にする
 10. 体験談風投稿では実体験の捏造を避ける
 
+### Experiment Control Principle
+
+> Observed Good Condition ≠ Proven Causal Factor
+> Observed Good Condition → Hold Constant Until Tested
+
+良好だったRunに含まれていた条件は、因果が証明されていなくても、その条件自体を検証するRunでない限り可能な範囲で固定する。
+
+#### 適用対象
+
+この原則は以下の条件に適用する。
+
+- 投稿時間帯
+- 画像有無
+- URL有無
+- 投稿構造
+- CTA形式
+- tone
+- account type
+- hashtag count
+- hashtag placement
+- ハッシュタグのTarget Tag / Content Angle Tag
+
+#### 適用例: ハッシュタグ
+
+OPS-002で `#40代ファッション` `#バッグの中身` の2タグ構成が使用され137 impressionsを獲得した場合：
+
+- 「2タグ構成が有効」「#40代ファッション が効いた」「#バッグの中身 が伸ばした」とは因果関係として断定しない。
+- 正しく言えるのは「137 impressionsを獲得したOPS-002の実行条件の一部だった」だけである。
+- Distribution Learning Runでは、Target Tag `#40代ファッション` は固定し、Content Angle Tag のみ content_angle に対応するタグに変更する。
+- ハッシュタグ効果そのものは、将来専用の Hashtag Experiment で検証する。
+
+#### 適用例: Distribution比較
+
+OPS-002で137 impressionsを獲得した場合：
+
+- 現時点では `success` / `weak` / `no_signal` / `higher` / `comparable` / `lower` などの閾値分類を Canonical な評価基準として新規固定しない。
+- OPS-004との比較では、生ratio `impression_ratio_vs_ops002 = OPS-004 impressions / 137` を中心に記録する。
+- 分類がschema上必須の場合のみ、既存仕様に従って記録する。
+- 判定帯・winning pattern は複数の Distribution Learning Run を蓄積した後、実測分布から導出する。
+
 ---
 
 ## 21. Phase 3-B以降の推奨

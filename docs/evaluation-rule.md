@@ -89,3 +89,4 @@
 - 比較対象は同じアカウント・同じジャンル・近い時間帯とする。
 - 画像条件、ハッシュタグ数、リンク有無を統一する。
 - インプレッション数は各プラットフォームの公式数値を使用する。
+- Experiment Control Principle: Observed Good Condition → Hold Constant Until Tested。良好だったRunの条件は、検証対象でない限り可能な範囲で固定する。

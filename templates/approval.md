@@ -173,6 +173,7 @@ Before posting, confirm all of the following:
 - [ ] No full-text copy of the original post.
 - [ ] Controversy risk is within acceptable range.
 - [ ] Final poster has performed a last visual check.
+- [ ] Hashtags follow the canonical strategy for this product_slug (if defined).
 
 ---
 
