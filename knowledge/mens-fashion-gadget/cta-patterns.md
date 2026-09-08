@@ -12,8 +12,14 @@ Cold Start 中のため、confirmed pattern はまだない。
 
 仮説レベルの CTA 候補:
 
+- 「みんなの〜、何が必須？」型
+  - OPS-002 で使用。impressions は取れたが likes/replies/bookmarks=0。
+  - 回答コストが高く、反応を誘発できなかった可能性。
+  - OPS-004 でも同一形式を使用。Distribution Learning Run では CTA を比較変数とせず、content_angle の影響を測定。engagement 効果は別フェーズで検証。
+  - 1投稿だけでこの CTA を reject しない。
+
 - 「みんなの〜、何？」型
-  - 汎用的な問いかけ。OPS-002/003 で使用。
+  - 汎用的な問いかけ。OPS-003 で使用。効果は未検証。
 
 - 「40代の〜、何から整えた？」型
   - 経験共有を促す。未テスト。

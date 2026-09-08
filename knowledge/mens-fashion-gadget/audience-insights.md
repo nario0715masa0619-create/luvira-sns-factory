@@ -18,12 +18,22 @@ Cold Start 中は仮説が中心。metrics 確認後に更新していく。
 
 ## Confirmed Insights
 
-まだなし。
-Cold Start 中のため、metrics 確認後に更新する。
+まだ確定していないが、以下は仮説として支持される可能性がある:
+
+- 40代男性×ファッション×ガジェットの方向性は、表示獲得の面で機能しうる。
+- corporate-to-personal / genre correction の方向性は、1投稿のデータではあるが否定されない。
 
 ## Rejected / Weak Assumptions
 
-まだなし。
+- 「3つの具体例 + 価値転換 + CTA」構造だけで自動的に反応が取れる → 弱い可能性。
+  - OPS-002 では表示は取れたが反応は0。
+- 「みんなの〜、何が必須？」型のCTAが反応を誘発する → OPS-002 では機能しなかった。ただし OPS-004 では Distribution 比較のため同一形式を維持。CTA効果は Engagement Learning Phase で検証。
+
+## Early Signals
+
+- バッグの中身・画像なし・テキストのみ投稿では、今回 engagement は発生しなかった。
+- 40代ファッション×ガジェットで反応を取るには、より具体的な悩み・実物感・ビフォーアフターが必要かもしれない。
+- 画像ありなら保存・反応が変わる可能性がある。
 
 ## Open Questions
 
@@ -34,3 +44,4 @@ Cold Start 中のため、metrics 確認後に更新する。
 - 経営者/営業職向けに寄せた方が反応が良いか。
 - 平日夜の投稿と週末の投稿で反応は変わるか。
 - 問いかけ型CTAと命令型CTAのどちらが良いか。
+- late measurement での 149 impressions は自然増を含んでいる可能性があるが、純粋な24h値でどうだったか。

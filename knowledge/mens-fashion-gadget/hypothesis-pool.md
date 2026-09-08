@@ -27,9 +27,9 @@
 
 | hypothesis_id | content_angle | target_reader | desired_reaction | expected_signal | risk | priority | status | related_runs | notes |
 |---------------|---------------|---------------|------------------|-----------------|------|----------|--------|--------------|-------|
-| H001 | バッグの中身 | 40代男性 / 経営者 / 営業職 | 自分もバッグの中身を整えたい / コメントしたい | replies / bookmarks | 投稿が似通いやすい | medium | testing | OPS-002, OPS-003 | OPS-002投稿済み、OPS-003は重複により保留 |
-| H002 | 靴の手入れ | 40代男性 / 経営者 / 営業職 | 自分も靴を手入れしようと思う / 保存したい | bookmarks / replies | 説教臭くなる可能性 | high | untested | - | OPS-004候補 |
-| H003 | 爪・髪・香り | 40代男性 / 経営者 / 営業職 | 身だしなみを見直したい / コメントしたい | replies / bookmarks | 清潔感訴求が上から目線になる可能性 | high | untested | - | OPS-004候補 |
+| H001 | バッグの中身 | 40代男性 / 経営者 / 営業職 | 自分もバッグの中身を整えたい / コメントしたい | replies / bookmarks | 投稿が似通いやすい | medium | no_signal | OPS-002, OPS-003 | OPS-002 late measurement: impressions=149, engagement=0。1投稿だけでrejectせず、即座の再投稿は避ける。OPS-003は重複により保留 |
+| H002 | 靴の手入れ | 40代男性 / 経営者 / 営業職 | 自分も靴を手入れしようと思う / 保存したい | bookmarks / replies | 説教臭くなる可能性 | high | untested | - | OPS-004第一候補。OPS-002 no_signal 後の pivot 先として最優先 |
+| H003 | 爪・髪・香り | 40代男性 / 経営者 / 営業職 | 身だしなみを見直したい / コメントしたい | replies / bookmarks | 清潔感訴求が上から目線になる可能性 | high | untested | - | OPS-004第二候補 / OPS-005候補 |
 | H004 | 薄型財布・キーケース | 40代男性 / 経営者 / 営業職 | 小物を買い替えたい / 保存したい | bookmarks / likes | H001と近く重複しやすい | medium | paused | OPS-002, OPS-003 | H001と近いため一時保留 |
 | H005 | ガジェットポーチ・ケーブル整理 | 40代男性 / 経営者 / 営業職 | バッグの中を整理したい / 保存したい | bookmarks / replies | H001と近く重複しやすい | medium | paused | OPS-002, OPS-003 | H001と近いため一時保留 |
 | H006 | ワイヤレスイヤホン | 40代男性 / 経営者 / 営業職 | 通勤・移動用ガジェットを見直したい | likes / bookmarks | ガジェット単体だと差別化が弱い | medium | untested | - | - |

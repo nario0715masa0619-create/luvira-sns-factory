@@ -14,6 +14,7 @@ Cold Start 中のため、confirmed losing pattern はまだない。
 
 - バッグの中身系の連投
   - OPS-002 と OPS-003 で重複が発生。
+  - OPS-002 は no_signal 寄りだが、1投稿だけで losing pattern にはしない。
   - 退役条件: 同系統で no_signal が2〜3回続くこと。
 
 ## Update Rules
