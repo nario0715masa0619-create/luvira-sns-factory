@@ -4,16 +4,26 @@
 
 - run_id: `20260908-0801-mens-fashion-gadget-corporate-to-personal`
 - platform: `X`
-- post_url: `https://...`
+- post_url: `https://x.com/ritsu_opt/status/2097497349392359722?s=20`
 - account_type: `personal`
 - product_service: `40代男性向けファッション・ガジェット情報発信`
-- selected_candidate_id: ``
+- selected_candidate_id: `candidate-01`
 
 ## Timing
 
-- posted_at: `YYYY-MM-DDTHH:MM:SS+09:00`
-- metrics_due_at: `YYYY-MM-DDTHH:MM:SS+09:00`
+- posted_at: `2026-09-09T10:29:00+09:00`
+- metrics_due_at: `2026-09-10T10:29:00+09:00`
 - metrics_recorded_at: `YYYY-MM-DDTHH:MM:SS+09:00`
+- measurement_status: `waiting_metrics`
+- measurement_target: `strict_24h_preferred`
+
+## Comparison Baseline
+
+- OPS-002 impressions: `149`（late measurement）
+- Comparison metric: `impression_ratio_vs_ops002 = OPS-004 impressions / 149`
+- hashtags: `#40代ファッション #靴の手入れ`
+- image: `none`
+- url: `none`
 
 ## 24h Metrics
 

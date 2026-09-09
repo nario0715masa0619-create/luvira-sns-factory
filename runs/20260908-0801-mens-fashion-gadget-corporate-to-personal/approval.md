@@ -200,14 +200,14 @@ CTAはOPS-002「みんなのバッグの中身、何が必須？」と同一形�
 
 Please check one:
 
-- [ ] **Approved as-is**
+- [x] **Approved as-is**
 - [ ] **Approved with edits**
 - [ ] **Rejected**
 - [ ] **Regenerate required**
 
 ### Decision Notes
 
-[APPROVER_DECISION_NOTES]
+Approved and posted as-is. Baseline corrected to OPS-002 impressions=149 before posting.
 
 ---
 
@@ -243,16 +243,17 @@ Before posting, confirm all of the following:
 
 ## Posting Record
 
-- posted_at: `2026-09-08T08:01:44.360562+09:00`
-- post_url: `https://...`
-- posted_by: `NAME`
+- posted_at: `2026-09-09T10:29:00+09:00`
+- post_url: `https://x.com/ritsu_opt/status/2097497349392359722?s=20`
+- posted_by: `human`
 - platform: `X`
 
 ---
 
 ## 24h Metrics Record
 
-- metrics_due_at: `2026-09-08T08:01:44.360562+09:00`
+- metrics_due_at: `2026-09-10T10:29:00+09:00`
+- measurement_target: `strict_24h_preferred`
 - impressions_24h: ``
 - engagement_24h: ``
 - replies_24h: ``
