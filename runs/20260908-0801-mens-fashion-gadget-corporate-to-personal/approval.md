@@ -95,8 +95,8 @@ Auto-generated from step-09-market-judge.md. Recommended candidate: 01.
 - **Primary KPI**: impressions
 - **Goal**: 別 content angle（H002 靴の手入れ）でも、同一運用フレームで Distribution を確保できるかを検証する。corporate-to-personal 構造の再現性を単独Runで断定するのではなく、複数angleでの傾向を観察する。
 - **Secondary Metrics**: likes / replies / reposts / bookmarks / profile_clicks / follows（参考記録。今回は最適化対象外）
-- **Comparison Baseline**: OPS-002 impressions = 137（投稿後約33時間計測）
-- **Comparison Method**: impression_ratio_vs_ops002 = OPS-004 impressions / 137
+- **Comparison Baseline**: OPS-002 impressions = 149（late measurement、投稿後約57時間計測）
+- **Comparison Method**: impression_ratio_vs_ops002 = OPS-004 impressions / 149
 - **Posting Conditions to Record**: 投稿時間帯、曜日、画像有無、URL有無、ハッシュタグ（Target Tag / Content Angle Tag）
 
 ### Distribution Comparison Recording
@@ -106,7 +106,7 @@ Auto-generated from step-09-market-judge.md. Recommended candidate: 01.
 
 **OPS-002 baseline**
 
-- impressions = 137
+- impressions = 149
 - hashtags: `#40代ファッション` `#バッグの中身`
 - image: none
 - URL: none
@@ -117,9 +117,9 @@ Auto-generated from step-09-market-judge.md. Recommended candidate: 01.
 | Item | Value / Formula |
 |------|-----------------|
 | OPS-004 impressions | 計測値 |
-| OPS-002 impressions | 137 |
-| impression_ratio_vs_ops002 | OPS-004 impressions / 137 |
-| raw_difference | OPS-004 impressions - 137 |
+| OPS-002 impressions | 149 |
+| impression_ratio_vs_ops002 | OPS-004 impressions / 149 |
+| raw_difference | OPS-004 impressions - 149 |
 | posting_time | 実際の投稿時刻 |
 | weekday | 投稿した曜日 |
 | hashtags | `#40代ファッション` `#靴の手入れ`（固定） |

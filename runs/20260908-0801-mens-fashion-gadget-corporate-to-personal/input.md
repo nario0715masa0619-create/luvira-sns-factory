@@ -15,7 +15,7 @@
 
 - industry: `ファッション・ライフスタイル`
 - target_audience: `40代男性 / 経営者 / 営業職 / 見た目と仕事道具を整えたい人`
-- posting_purpose: `Distribution Learning: H002 靴の手入れで、同一運用フレームでの Distribution 確保可能性を検証。OPS-002（impressions=137）との比較基準で評価。engagement は参考記録。`
+- posting_purpose: `Distribution Learning: H002 靴の手入れで、同一運用フレームでの Distribution 確保可能性を検証。OPS-002（impressions=149、late measurement）との比較基準で評価。engagement は参考記録。`
 - tone: `同年代の友人に話すような自然な個人口調。高級感より清潔感・実用性を重視。教科書的・啓発的にならない。`
 - character_limit: `200`
 - hashtag_policy: `2タグ構成：#40代ファッション（Target Tag 固定） + #靴の手入れ（Content Angle Tag）。詳細は knowledge/mens-fashion-gadget/hashtag-strategy.md。`

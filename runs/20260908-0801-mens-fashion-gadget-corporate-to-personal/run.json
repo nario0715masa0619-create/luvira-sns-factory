@@ -1,7 +1,7 @@
 {
   "run_id": "20260908-0801-mens-fashion-gadget-corporate-to-personal",
   "created_at": "2026-09-08T08:01:44.360562+09:00",
-  "updated_at": "2026-09-08T09:30:06.700098+09:00",
+  "updated_at": "2026-09-09T10:28:18.205884+09:00",
   "product_service": "40代男性向けファッション・ガジェット情報発信",
   "product_slug": "mens-fashion-gadget",
   "client_context": {
@@ -142,5 +142,5 @@
   "engagement_24h": null,
   "clicks_24h": null,
   "replies_24h": null,
-  "notes": "Distribution Learning Run. Hypothesis H002: 靴の手入れ。 Primary KPI: impressions. Goal: verify whether the same operational framework can secure Distribution with a different content angle (H002 vs H001). Comparison baseline: OPS-002 impressions=137. Metric: impression_ratio_vs_ops002 = OPS-004 impressions / 137. No absolute success/weak/no_signal thresholds as canonical criteria yet; derive bands and winning patterns only after multiple Distribution Learning Runs. CTA form kept comparable to OPS-002 (みんなの〜、何が必須？). Hashtags: #40代ファッション (Target Tag) + #靴の手入れ (Content Angle Tag). Text-only, no URL, no image. Engagement metrics recorded for reference but not optimized."
+  "notes": "Distribution Learning Run. Hypothesis H002: 靴の手入れ。 Primary KPI: impressions. Goal: verify whether the same operational framework can secure Distribution with a different content angle (H002 vs H001). Comparison baseline: OPS-002 impressions=149 (late measurement, approx. 57h10m after post). Metric: impression_ratio_vs_ops002 = OPS-004 impressions / 149. No absolute success/weak/no_signal thresholds as canonical criteria yet; derive bands and winning patterns only after multiple Distribution Learning Runs. CTA form kept comparable to OPS-002 (みんなの〜、何が必須？). Hashtags: #40代ファッション (Target Tag) + #靴の手入れ (Content Angle Tag). Text-only, no URL, no image. Engagement metrics recorded for reference but not optimized."
 }

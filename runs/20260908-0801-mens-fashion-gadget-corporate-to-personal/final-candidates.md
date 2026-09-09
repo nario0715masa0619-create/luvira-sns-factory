@@ -93,13 +93,13 @@
 - Primary KPI: impressions
 - 別 content angle（H002 靴の手入れ）でも、同一運用フレームで Distribution を確保できるかを検証する
 - corporate-to-personal 構造の再現性を単独Runで断定せず、複数angleでの傾向を観察する
-- Comparison Baseline: OPS-002 impressions = 137
-- Comparison Metric: impression_ratio_vs_ops002 = OPS-004 impressions / 137
+- Comparison Baseline: OPS-002 impressions = 149
+- Comparison Metric: impression_ratio_vs_ops002 = OPS-004 impressions / 149
 - engagement（likes/replies/reposts/bookmarks）は参考記録。今回は最適化対象外
 
 **Expected Reaction:**
 
-- Distribution 目標: OPS-002（impressions = 137）と比較し、生ratio `impression_ratio_vs_ops002 = OPS-004 impressions / 137` を記録
+- Distribution 目標: OPS-002（impressions = 149）と比較し、生ratio `impression_ratio_vs_ops002 = OPS-004 impressions / 149` を記録
 - 現時点では `higher` / `comparable` / `lower` / `success` / `weak` / `no_signal` といった閾値分類を新規固定しない
 - 投稿時間帯・曜日・メディア条件・ハッシュタグ構成も記録し、比較時の補足とする
 - engagement は参考値として記録。期待は控えめ
