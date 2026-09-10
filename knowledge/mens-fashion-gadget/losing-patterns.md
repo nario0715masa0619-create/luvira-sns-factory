@@ -17,6 +17,11 @@ Cold Start 中のため、confirmed losing pattern はまだない。
   - OPS-002 は no_signal 寄りだが、1投稿だけで losing pattern にはしない。
   - 退役条件: 同系統で no_signal が2〜3回続くこと。
 
+- text-only の靴の手入れ一般論
+  - OPS-004 で使用。impressions=9、engagement=0。
+  - **まだ losing pattern にはしない**。画像あり・ビフォーアフター・別時間帯で再検証の余地あり。
+  - 注意: 視覚変化が重要なテーマは画像なしだと弱い可能性がある。
+
 ## Update Rules
 
 - 1投稿だけで確定しない。

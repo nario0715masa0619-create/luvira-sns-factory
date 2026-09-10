@@ -28,12 +28,12 @@
 | hypothesis_id | content_angle | target_reader | desired_reaction | expected_signal | risk | priority | status | related_runs | notes |
 |---------------|---------------|---------------|------------------|-----------------|------|----------|--------|--------------|-------|
 | H001 | バッグの中身 | 40代男性 / 経営者 / 営業職 | 自分もバッグの中身を整えたい / コメントしたい | replies / bookmarks | 投稿が似通いやすい | medium | no_signal | OPS-002, OPS-003 | OPS-002 late measurement: impressions=149, engagement=0。1投稿だけでrejectせず、即座の再投稿は避ける。OPS-003は重複により保留 |
-| H002 | 靴の手入れ | 40代男性 / 経営者 / 営業職 | 自分も靴を手入れしようと思う / 保存したい | bookmarks / replies | 説教臭くなる可能性 | high | untested | - | OPS-004第一候補。OPS-002 no_signal 後の pivot 先として最優先 |
-| H003 | 爪・髪・香り | 40代男性 / 経営者 / 営業職 | 身だしなみを見直したい / コメントしたい | replies / bookmarks | 清潔感訴求が上から目線になる可能性 | high | untested | - | OPS-004第二候補 / OPS-005候補 |
+| H002 | 靴の手入れ | 40代男性 / 経営者 / 営業職 | 自分も靴を手入れしようと思う / 保存したい | bookmarks / replies | 説教臭くなる可能性 | medium | no_signal | OPS-004 | OPS-004: impressions=9, engagement=0, ratio_vs_OPS002=0.0604, raw_diff=-140. Do not retire after one run; avoid immediate repeat unless image-based test. |
+| H003 | 爪・髪・香り | 40代男性 / 経営者 / 営業職 | 身だしなみを見直したい / コメントしたい | replies / bookmarks | 清潔感訴求が上から目線になる可能性 | high | untested | - | OPS-005第一候補。清潔感軸の次の検証 |
 | H004 | 薄型財布・キーケース | 40代男性 / 経営者 / 営業職 | 小物を買い替えたい / 保存したい | bookmarks / likes | H001と近く重複しやすい | medium | paused | OPS-002, OPS-003 | H001と近いため一時保留 |
 | H005 | ガジェットポーチ・ケーブル整理 | 40代男性 / 経営者 / 営業職 | バッグの中を整理したい / 保存したい | bookmarks / replies | H001と近く重複しやすい | medium | paused | OPS-002, OPS-003 | H001と近いため一時保留 |
 | H006 | ワイヤレスイヤホン | 40代男性 / 経営者 / 営業職 | 通勤・移動用ガジェットを見直したい | likes / bookmarks | ガジェット単体だと差別化が弱い | medium | untested | - | - |
 | H007 | 若作りしないジャケット | 40代男性 / 経営者 / 営業職 | 服選びを見直したい / 保存したい | bookmarks / replies | ファッション助言が偉そうに見える可能性 | high | untested | - | - |
 | H008 | 40代NGファッション | 40代男性 / 経営者 / 営業職 | 自分も気をつけようと思う / コメントしたい | impressions / replies | ネガティブ訴求が強くなりすぎる可能性 | medium | untested | - | - |
-| H009 | 営業/経営者の第一印象 | 40代男性 / 経営者 / 営業職 | 仕事での見た目を整えたい / 保存したい | profile_clicks / follows / replies | ビジネス色が強すぎる可能性 | high | untested | - | - |
+| H009 | 営業/経営者の第一印象 | 40代男性 / 経営者 / 営業職 | 仕事での見た目を整えたい / 保存したい | profile_clicks / follows / replies | ビジネス色が強すぎる可能性 | high | untested | - | OPS-005第二候補 / OPS-006候補。ビジネス文脈での検証価値 |
 | H010 | 買ってよかった小物3選 | 40代男性 / 経営者 / 営業職 | 真似したい / 買いたい / 保存したい | bookmarks / likes | 実体験の捏造に注意 | medium | untested | - | 実際に使ったものに限定するのが望ましい |

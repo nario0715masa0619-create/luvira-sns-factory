@@ -1,7 +1,7 @@
 {
   "run_id": "20260908-0801-mens-fashion-gadget-corporate-to-personal",
   "created_at": "2026-09-08T08:01:44.360562+09:00",
-  "updated_at": "2026-09-09T10:35:49.323057+09:00",
+  "updated_at": "2026-09-10T10:51:58.628603+09:00",
   "product_service": "40代男性向けファッション・ガジェット情報発信",
   "product_slug": "mens-fashion-gadget",
   "client_context": {
@@ -34,7 +34,7 @@
     "assisted_generation": "Helper-assisted run; AI execution still performed by a human.",
     "archived_experiment": "Stored historical experiment, not under active development."
   },
-  "status": "posted",
+  "status": "metrics_recorded",
   "current_step": "step-10-final-packager",
   "steps": [
     {
@@ -128,7 +128,7 @@
       "notes": ""
     }
   ],
-  "final_verdict": null,
+  "final_verdict": "no_signal",
   "selected_candidate_id": "candidate-01",
   "selected_candidate_text": null,
   "human_approved": true,
@@ -138,10 +138,20 @@
   "posted_at": "2026-09-09T10:29:00+09:00",
   "post_url": "https://x.com/ritsu_opt/status/2097497349392359722?s=20",
   "metrics_due_at": "2026-09-10T10:29:00+09:00",
-  "impressions_24h": null,
-  "engagement_24h": null,
+  "impressions_24h": 9,
+  "engagement_24h": 0,
   "clicks_24h": null,
-  "replies_24h": null,
+  "replies_24h": 0,
   "notes": "Distribution Learning Run. Hypothesis H002: 靴の手入れ。 Primary KPI: impressions. Goal: verify whether the same operational framework can secure Distribution with a different content angle (H002 vs H001). Comparison baseline: OPS-002 impressions=149 (late measurement, approx. 57h10m after post). Metric: impression_ratio_vs_ops002 = OPS-004 impressions / 149. No absolute success/weak/no_signal thresholds as canonical criteria yet; derive bands and winning patterns only after multiple Distribution Learning Runs. CTA form kept comparable to OPS-002 (みんなの〜、何が必須？). Hashtags: #40代ファッション (Target Tag) + #靴の手入れ (Content Angle Tag). Text-only, no URL, no image. Engagement metrics recorded for reference but not optimized.",
-  "measurement_target": "strict_24h_preferred"
+  "measurement_target": "strict_24h_preferred",
+  "metrics_recorded_at": "2026-09-10T10:47:00+09:00",
+  "measurement_window": "late_24h_measurement",
+  "likes_24h": 0,
+  "comments_24h": 0,
+  "follows_24h": 0,
+  "reposts_24h": "unknown",
+  "bookmarks_24h": "unknown",
+  "profile_clicks_24h": "unknown",
+  "impression_ratio_vs_ops002": 0.0604,
+  "raw_difference_vs_ops002": -140
 }

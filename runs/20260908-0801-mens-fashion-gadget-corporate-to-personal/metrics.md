@@ -13,8 +13,10 @@
 
 - posted_at: `2026-09-09T10:29:00+09:00`
 - metrics_due_at: `2026-09-10T10:29:00+09:00`
-- metrics_recorded_at: `YYYY-MM-DDTHH:MM:SS+09:00`
-- measurement_status: `waiting_metrics`
+- metrics_recorded_at: `2026-09-10T10:47:00+09:00`
+- measurement_window: `late_24h_measurement`
+- elapsed_since_post: `約24時間18分`
+- measurement_status: `metrics_recorded`
 - measurement_target: `strict_24h_preferred`
 
 ## Comparison Baseline
@@ -29,19 +31,23 @@
 
 | Metric | Value |
 |--------|-------|
-| impressions_24h | `` |
-| likes_24h | `` |
-| comments_24h | `` |
-| reposts_24h | `` |
-| saves_24h | `` |
-| profile_clicks_24h | `` |
-| link_clicks_24h | `` |
-| engagement_rate_24h | `` |
+| impressions_24h | `9` |
+| likes_24h | `0` |
+| replies_24h | `0` |
+| comments_24h | `0` |
+| follows_24h | `0` |
+| reposts_24h | `unknown` |
+| bookmarks_24h | `unknown` |
+| profile_clicks_24h | `unknown` |
+| link_clicks_24h | `unknown` |
+| engagement_rate_24h | `0.0%` |
+| impression_ratio_vs_ops002 | `0.0604` |
+| raw_difference_vs_ops002 | `-140` |
 
 ### Engagement Rate Calculation
 
 ```text
-engagement_rate_24h = (likes_24h + comments_24h + reposts_24h + saves_24h) / impressions_24h * 100
+engagement_rate_24h = (likes_24h + comments_24h + reposts_24h + bookmarks_24h) / impressions_24h * 100
 ```
 
 - Record as a percentage, e.g. `3.5%`.
@@ -49,7 +55,11 @@ engagement_rate_24h = (likes_24h + comments_24h + reposts_24h + saves_24h) / imp
 
 ## Qualitative Notes
 
-[QUALITATIVE_NOTES]
+- impressions は 9 と、OPS-002（149）と比較して大幅に低い。
+- 可視エンゲージメント（likes / replies / reposts / bookmarks）はすべて 0 または unknown。
+- text-only / 画像なし / 投稿時間 / アカウント状態 / テーマの一般論感が影響した可能性がある。
+- 「高い靴より手入れ」という主張は自然だが、画像なしでは視覚的変化が伝わりにくい。
+- CTA「みんなの靴の手入れ、何が必須？」に反応がなかった。
 
 ## Result Verdict
 
@@ -59,15 +69,22 @@ Please check one:
 - [ ] **acceptable** — met baseline expectations.
 - [ ] **weak** — underperformed relative to expectations.
 - [x] **invalid_missing_metrics** — metrics could not be recorded.
-- [ ] **invalid_changed_post** — the posted text differed from the approved candidate.
+
+> Cold Start label としては `no_signal`。ただし1投稿だけで H002「靴の手入れ」を retired / losing pattern 確定にしない。
 
 ## Lessons Learned
 
-[LESSONS_LEARNED]
+- text-only の靴の手入れ一般論投稿は、今回ほとんど配信されなかった。
+- 視覚変化が重要なテーマは画像なしだと弱い可能性がある。
+- CTA「みんなの〜、何が必須？」は OPS-002 に続いて反応を誘発できなかった。
+- 次回は角度分散を優先し、H003 爪・髪・香り または H009 営業/経営者の第一印象 を試す。
 
 ## Next Prompt Adjustment
 
-[NEXT_PROMPT_ADJUSTMENT]
+- 靴の手入れを再検証するなら画像あり・ビフォーアフター必須。
+- テキストだけなら「靴」よりも清潔感全体や失敗談に寄せる。
+- 次は H003 または H009 へ pivot。
+- 「みんなの〜、何が必須？」型 CTA の連続使用を避ける。
 
 ---
 

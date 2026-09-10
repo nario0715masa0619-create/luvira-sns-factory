@@ -19,6 +19,7 @@ Cold Start 中のため、confirmed pattern はまだない。
 - 「40代になって、高い靴よりちゃんと手入れしてる靴の方が大事だと気づいた」型
   - OPS-004 で使用。H002 靴の手入れ用。OPS-002 の hook 構造を維持しつつ、テーマだけを変更。
   - Distribution Learning Run では、別 content angle でも同一 hook 構造で Distribution を確保できるかを検証。
+  - 結果: impressions=9 で no_signal。ただし1投稿だけで断定しない。画像あり・ビフォーアフターで再検証余地あり。
   - ハッシュタグは OPS-002 と同じ2タグ構成（Target Tag `#40代ファッション` 固定 + Content Angle Tag `#靴の手入れ`）を維持。
 
 - 「40代、〜を整えたら自信が出てきた」型
