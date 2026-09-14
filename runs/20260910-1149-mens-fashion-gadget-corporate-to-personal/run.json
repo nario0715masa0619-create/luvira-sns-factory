@@ -1,7 +1,7 @@
 {
   "run_id": "20260910-1149-mens-fashion-gadget-corporate-to-personal",
   "created_at": "2026-09-10T11:49:01.612313+09:00",
-  "updated_at": "2026-09-10T15:19:09.664518+09:00",
+  "updated_at": "2026-09-14T11:06:24.553910+09:00",
   "product_service": "40代男性向けファッション・ガジェット情報発信",
   "product_slug": "mens-fashion-gadget",
   "client_context": {
@@ -34,7 +34,7 @@
     "assisted_generation": "Helper-assisted run; AI execution still performed by a human.",
     "archived_experiment": "Stored historical experiment, not under active development."
   },
-  "status": "approved",
+  "status": "posted",
   "current_step": "step-10-final-packager",
   "steps": [
     {
@@ -128,19 +128,29 @@
       "notes": ""
     }
   ],
-  "final_verdict": "pending_human_review",
+  "final_verdict": "non_comparable",
   "selected_candidate_id": "candidate-01",
   "selected_candidate_text": "40代になってから、服より先に見られてる気がするものがある。\\n\\n爪、髪、香り。\\n\\n高い服を着るより、\\n爪が伸びてないこと。\\n寝ぐせのまま出ないこと。\\n香りが強すぎないこと。\\n\\nこのへんが整ってるだけで、\\n清潔感ってかなり変わる気がする。\\n\\nまず見直すなら、服より身だしなみかもしれない。\\n\\n#40代ファッション #身だしなみ",
   "human_approved": true,
   "approval_status": "approved",
   "approved_by": "human",
   "approved_at": "2026-09-10T15:19:09.664518+09:00",
-  "posted_at": null,
-  "post_url": null,
-  "metrics_due_at": null,
+  "posted_at": "2026-09-11T22:41:00+09:00",
+  "post_url": "https://x.com/ritsu_opt/status/2098406679058797046?s=20",
+  "metrics_due_at": "2026-09-12T22:41:00+09:00",
   "impressions_24h": null,
   "engagement_24h": null,
   "clicks_24h": null,
   "replies_24h": null,
-  "notes": "Distribution Learning Run. Hypothesis H003: 爪・髪・香り。 Primary KPI: impressions. Goal: verify whether the cleanliness/self-care theme resonates with 40s men. Lessons from OPS-002/OPS-004 applied: avoid abstract general claims, use image if possible, avoid 'みんなの〜何が必須？' CTA. Hashtags: #40代ファッション (Target Tag) + #身だしなみ (Content Angle Tag). Image recommended. URL none. Engagement metrics recorded for reference but not optimized.\nHuman edited before approval: (1) reduced first-person experience claims, (2) changed structure from 3-item list to short contrast rhythm to differ from OPS-002/004, (3) replaced abstract 'impression' with concrete 'cleanliness', (4) removed reply-prompt CTA in favor of resonant close."
+  "notes": "Distribution Learning Run. Hypothesis H003: 爪・髪・香り。 Primary KPI: impressions. Goal: verify whether the cleanliness/self-care theme resonates with 40s men. Lessons from OPS-002/OPS-004 applied: avoid abstract general claims, use image if possible, avoid 'みんなの〜何が必須？' CTA. Hashtags: #40代ファッション (Target Tag) + #身だしなみ (Content Angle Tag). Image recommended. URL none. Engagement metrics recorded for reference but not optimized.\nHuman edited before approval: (1) reduced first-person experience claims, (2) changed structure from 3-item list to short contrast rhythm to differ from OPS-002/004, (3) replaced abstract 'impression' with concrete 'cleanliness', (4) removed reply-prompt CTA in favor of resonant close.\n\nOPS-005 posting completed. 24h measurement MISSED. Delayed observation recorded: impressions=29, replies=1, likes=1, reposts=0 at an unspecified time after 24h. These observed values are NOT recorded as 24h metrics. Canonical OPS-002 run record stores impressions_24h=149 with measurement_window=late_measurement (strict 24h measurement was not obtained). The value 137 was a pre-correction baseline and is not used for ratio comparison in this canonical record. Because OPS-005 is a delayed observation, no official impression_ratio_vs_ops002 is recorded. Result quality: non_comparable / delayed observation. Do not retire H003 or conclude cleanliness theme is weak from this single delayed observation.",
+  "measurement_window": "delayed_observation",
+  "measurement_target": "strict_24h_preferred",
+  "measurement_status": "24h_missed_delayed_observation_recorded",
+  "metrics_recorded_at": "2026-09-14T11:06:24.553910+09:00",
+  "likes_24h": null,
+  "comments_24h": null,
+  "reposts_24h": null,
+  "bookmarks_24h": null,
+  "profile_clicks_24h": null,
+  "follows_24h": null
 }

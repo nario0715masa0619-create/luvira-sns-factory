@@ -270,21 +270,26 @@ Before posting, confirm all of the following:
 
 ## Posting Record
 
-- posted_at: ``
-- post_url: ``
-- posted_by: ``
+- posted_at: `2026-09-11T22:41:00+09:00`
+- post_url: `https://x.com/ritsu_opt/status/2098406679058797046?s=20`
+- posted_by: `human`
 - platform: `X`
 
 ---
 
 ## 24h Metrics Record
 
-- metrics_due_at: ``
-- impressions_24h: ``
-- engagement_24h: ``
-- replies_24h: ``
-- clicks_24h: ``
-- notes: `Distribution Learning primary KPI is impressions; engagement recorded for reference.`
+- metrics_due_at: `2026-09-12T22:41:00+09:00`
+- measurement_status: `24h_missed_delayed_observation_recorded`
+- impressions_24h: `missed`
+- engagement_24h: `missed`
+- replies_24h: `missed`
+- clicks_24h: `missed`
+- delayed_observation_impressions: `29`
+- delayed_observation_likes: `1`
+- delayed_observation_replies: `1`
+- delayed_observation_reposts: `0`
+- notes: `Distribution Learning primary KPI is impressions. 24h metrics missed; delayed observation values recorded for reference only. Not comparable to OPS-002.`
 
 ---
 
