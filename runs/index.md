@@ -2,12 +2,12 @@
 
 ## Summary
 
-- generated_at: `2026-09-14T14:19:36.920330+09:00`
-- total_runs: `7`
-- visible_runs: `7`
+- generated_at: `2026-09-14T15:11:26.506310+09:00`
+- total_runs: `8`
+- visible_runs: `8`
 - archived_runs: `0`
 - warning_count: `1`
-- pending_approval_count: `3`
+- pending_approval_count: `4`
 - posted_count: `3`
 - metrics_due_count: `1`
 - metrics_recorded_count: `2`
@@ -18,6 +18,7 @@
 
 | run_id | product_service | source | target | status | selected_candidate_id | human_approved | approval_status | posted_at | metrics_due_at | impressions_24h | updated_at |
 |--------|-----------------|--------|--------|--------|-----------------------|----------------|-----------------|-----------|----------------|-----------------|------------|
+| [20260914-1426-mens-fashion-gadget-corporate-to-personal](./20260914-1426-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | pending_approval | candidate-b | false | pending | - | - | - | 2026-09-14T15:09:52.602230+09:00 |
 | [20260910-1149-mens-fashion-gadget-corporate-to-personal](./20260910-1149-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | posted | candidate-01 | true | approved | 2026-09-11T22:41:00+09:00 | 2026-09-12T22:41:00+09:00 | - | 2026-09-14T11:06:24.553910+09:00 |
 | [20260908-0801-mens-fashion-gadget-corporate-to-personal](./20260908-0801-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | metrics_recorded | candidate-01 | true | approved | 2026-09-09T10:29:00+09:00 | 2026-09-10T10:29:00+09:00 | 9 | 2026-09-10T10:51:58.628603+09:00 |
 | [20260906-2132-mens-fashion-gadget-corporate-to-personal](./20260906-2132-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | metrics_recorded | candidate-01 | true | approved_with_edits | 2026-09-06T22:35:48+09:00 | 2026-09-07T22:35:48+09:00 | 149 | 2026-09-09T07:50:41.733689+09:00 |
@@ -30,6 +31,7 @@
 
 | run_id | product_service | selected_candidate_id | approval_status | updated_at |
 |--------|-----------------|-----------------------|-----------------|------------|
+| [20260914-1426-mens-fashion-gadget-corporate-to-personal](./20260914-1426-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | candidate-b | pending | 2026-09-14T15:09:52.602230+09:00 |
 | [20260907-0751-mens-fashion-gadget-corporate-to-personal](./20260907-0751-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | candidate-03 | pending | 2026-09-07T07:55:34.300481+09:00 |
 | [20260906-1848-system-dev-corporate-to-personal](./20260906-1848-system-dev-corporate-to-personal/) | AI活用型短納期システム開発 | candidate-01 | pending | 2026-09-06T19:02:26.198462+09:00 |
 | [20260906-1000-system-dev-corporate-to-personal](./20260906-1000-system-dev-corporate-to-personal/) | AI活用型短納期システム開発 | candidate-03 | pending | 2026-09-06T13:42:55.967747+09:00 |
