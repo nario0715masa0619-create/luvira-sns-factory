@@ -79,14 +79,16 @@
 > Observed Good Condition ≠ Proven Causal Factor
 > Observed Good Condition → Hold Constant Until Tested
 
-OPS-002 で `#40代ファッション` `#バッグの中身` の2タグ構成が使用され、137 impressions を獲得した。
+OPS-002 で `#40代ファッション` `#バッグの中身` の2タグ構成が使用され、149 impressions（late measurement、投稿後約57時間10分）を獲得した。
 しかし、この結果から「2タグ構成が有効」「#40代ファッション が効いた」「#バッグの中身 が伸ばした」とは断定しない。
 
 現時点で正しく言えるのは、
 
-> 「137 impressionsを獲得したOPS-002の実行条件の一部だった」
+> 「149 impressionsを獲得したOPS-002の実行条件の一部だった」
 
 ということだけである。
+
+> Note: 137 は過去に一時的に使用された pre-correction baseline であり、canonical run record では 149（late measurement）が記録されている。
 
 したがって、Distribution Learning Run では、
 

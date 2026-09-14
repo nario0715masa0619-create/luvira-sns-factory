@@ -892,19 +892,21 @@ PDCA でも人間判断を必須にする。
 
 #### 適用例: ハッシュタグ
 
-OPS-002で `#40代ファッション` `#バッグの中身` の2タグ構成が使用され137 impressionsを獲得した場合：
+OPS-002で `#40代ファッション` `#バッグの中身` の2タグ構成が使用され149 impressions（late measurement）を獲得した場合：
 
 - 「2タグ構成が有効」「#40代ファッション が効いた」「#バッグの中身 が伸ばした」とは因果関係として断定しない。
-- 正しく言えるのは「137 impressionsを獲得したOPS-002の実行条件の一部だった」だけである。
+- 正しく言えるのは「149 impressionsを獲得したOPS-002の実行条件の一部だった」だけである。
 - Distribution Learning Runでは、Target Tag `#40代ファッション` は固定し、Content Angle Tag のみ content_angle に対応するタグに変更する。
 - ハッシュタグ効果そのものは、将来専用の Hashtag Experiment で検証する。
 
+> Note: 137 は過去に一時的に使用された pre-correction baseline。canonical run record では 149（late measurement）が記録されている。
+
 #### 適用例: Distribution比較
 
-OPS-002で137 impressionsを獲得した場合：
+OPS-002で149 impressions（late measurement）を獲得した場合：
 
 - 現時点では `success` / `weak` / `no_signal` / `higher` / `comparable` / `lower` などの閾値分類を Canonical な評価基準として新規固定しない。
-- OPS-004との比較では、生ratio `impression_ratio_vs_ops002 = OPS-004 impressions / 137` を中心に記録する。
+- OPS-004との比較では、生ratio `impression_ratio_vs_ops002 = OPS-004 impressions / 149` を中心に記録する。
 - 分類がschema上必須の場合のみ、既存仕様に従って記録する。
 - 判定帯・winning pattern は複数の Distribution Learning Run を蓄積した後、実測分布から導出する。
 
