@@ -27,6 +27,7 @@ Cold Start exploration.
 | 20260907-0751-mens-fashion-gadget-corporate-to-personal | H001 | バッグの中身 | generated | - | - | unknown | unknown | unknown | unknown | unknown | unknown | unknown | pending | unknown | unknown | hold_due_to_overlap_with_OPS-002 |
 | 20260908-0801-mens-fashion-gadget-corporate-to-personal | H002 | 靴の手入れ | analyzed | 2026-09-09T10:29:00+09:00 | https://x.com/ritsu_opt/status/2097497349392359722?s=20 | 9 | 0 | 0 | unknown | unknown | unknown | 0 | no_signal | none | low_distribution_no_engagement | pivot_to_H003_or_H009 |
 | 20260910-1149-mens-fashion-gadget-corporate-to-personal | H003 | 爪・髪・香り | analyzed | 2026-09-11T22:41:00+09:00 | https://x.com/ritsu_opt/status/2098406679058797046?s=20 | missed | missed | missed | missed | missed | missed | missed | non_comparable | none | measurement_missed | 24h計測徹底 / OPS-006はH009へcontent_angleのみ変更 |
+| 20260914-1426-mens-fashion-gadget-corporate-to-personal | H009 | 営業/経営者の第一印象 | analyzed | 2026-09-14T22:08:00+09:00 | https://x.com/ritsu_opt/status/2099485363559624746?s=20 | missed | missed | missed | missed | missed | missed | missed | non_comparable | none | measurement_missed | 24h計測徹底（2回連続）/ OPS-007はH007へcontent_angleのみ変更 |
 
 ## Notes
 
@@ -37,3 +38,4 @@ Cold Start exploration.
 - **2026-09-09 Phase 3-C 更新**: OPS-002 late measurement（投稿後約57時間10分）で impressions=149, engagement=0。result_label=no_signal。ただし1投稿だけで H001 を reject せず、次回は H002 靴の手入れまたは H003 爪・髪・香りへ pivot。
 - **2026-09-10 Phase 3-D 更新**: OPS-004 late_24h_measurement（約24時間18分）で impressions=9, engagement=0。impression_ratio_vs_ops002=0.0604、raw_difference=-140。result_label=no_signal。H002 は1投稿だけで retired にせず、次回は H003 爪・髪・香りまたは H009 営業/経営者の第一印象へ pivot。
 - **2026-09-14 Phase 3-E 更新**: OPS-005 は 24h 計測を失念し、delayed observation で impressions=29, likes=1, replies=1, reposts=0 を確認。measurement window が OPS-002 と異なるため、impression_ratio_vs_ops002 は計算しない。result_label=non_comparable。H003 を1投稿（かつ測定不完全）で retired / losing pattern にしない。OPS-006 では既存Control条件を維持したまま content_angle のみを H009 営業/経営者の第一印象 に変更。H007 若作りしないジャケット、H003 爪・髪・香り再検証は Experiment Queue に候補として残す。人間承認後に確定。
+- **2026-09-17 Phase 3-F 更新**: OPS-006 は 24h 計測を失念（2回連続）。delayed observation（約65時間後）で impressions=26, likes=1, replies=1, reposts=0 を確認。measurement window が OPS-002 と異なるため、formal ratio 比較不可。result_label=non_comparable。H009 を1投稿（かつ測定不完全）で retired / losing pattern にしない。OPS-007 では既存Control条件を維持したまま content_angle のみを H007 若作りしないジャケット に変更。24h 計測を徹底する。

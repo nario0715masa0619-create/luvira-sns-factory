@@ -19,8 +19,8 @@
 | queue_order | hypothesis_id | planned_run_id | content_angle | reason | avoid_overlap | planned_platform | planned_status | notes |
 |-------------|---------------|----------------|---------------|--------|---------------|------------------|----------------|-------|
 | 1 | H003 | OPS-005 | 爪・髪・香り | OPS-004 no_signal 後の角度分散。最優先 | バッグの中身・靴の手入れ系ではない | X | planned | 身だしなみケア軸。Target Tag固定 #40代ファッション、Content Angle Tag #爪髪香り（仮） |
-| 2 | H009 | OPS-006 | 営業/経営者の第一印象 | ビジネス文脈での反応を検証するため。content_angle のみ変更 | H003 とは異なる切り口 | X | planned | image=none, CTA style=canonical, URL=none, Target Tag=#40代ファッション, hashtags=2 |
-| 3 | H007 | OPS-007 | 若作りしないジャケット | ファッション寄りの反応を検証するため | H003/H009 とは異なる切り口 | X | planned | 服装選択軸 |
+| 2 | H009 | OPS-006 | 営業/経営者の第一印象 | ビジネス文脈での反応を検証するため。content_angle のみ変更 | H003 とは異なる切り口 | X | analyzed | 24h metrics missed。delayed observation のみ。次回 24h 計測徹底。 |
+| 3 | H007 | OPS-007 | 若作りしないジャケット | ファッション寄りの反応を検証するため | H003/H009 とは異なる切り口 | X | planned | 服装選択軸。content_angle のみ変更。image/CTA style/posting time/URL固定。 |
 | 4 | H006 | OPS-008 | ワイヤレスイヤホン | ガジェット単体反応を検証するため | H007 とは異なる切り口 | X | planned | ガジェット軸 |
 | 5 | H002 | OPS-009 | 靴の手入れ（画像あり） | text-only で弱かったため、画像ありで再検証の余地あり | H003/H009 から時間を空ける | X | planned | 画像あり・ビフォーアフター前提 |
 
@@ -33,3 +33,4 @@
 - **2026-09-09 Phase 3-C 更新**: OPS-002 late measurement で impressions=149, engagement=0、result_label=no_signal。OPS-004（H002 靴の手入れ）を最優先、pivot 実施。OPS-003 は引き続き H001 overlap のため保留。
 - **2026-09-10 Phase 3-D 更新**: OPS-004 late_24h_measurement で impressions=9, engagement=0、result_label=no_signal。impression_ratio_vs_ops002=0.0604。次回最優先は H003 爪・髪・香り、第二候補は H009 営業/経営者の第一印象。H002 は画像ありで再検証の余地あり。
 - **2026-09-14 Phase 3-E 更新**: OPS-005 は 24h 計測を失念し result_label=non_comparable。OPS-006 では既存Control条件を維持したまま content_angle のみを H009 営業/経営者の第一印象 に変更。H007 若作りしないジャケット、H003 爪・髪・香り再検証は Experiment Queue に候補として残す。人間承認後に確定。
+- **2026-09-17 Phase 3-F 更新**: OPS-006 も 24h 計測を失念。result_label=non_comparable。次回 OPS-007 は H007 若作りしないジャケット を採用。content_angle のみ変更。24h 計測を徹底する。
