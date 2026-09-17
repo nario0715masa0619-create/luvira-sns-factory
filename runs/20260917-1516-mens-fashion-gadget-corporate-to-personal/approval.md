@@ -117,6 +117,37 @@ Tシャツに合わせるとカジュアルすぎて、
 
 ---
 
+## Human Edited Final Candidate
+
+**Status**: `SELECTED`
+
+```text
+40代のジャケットって、
+若く見せようとすると逆に難しい。
+
+細すぎるシルエット。
+合ってない肩幅。
+頑張ってる感のあるデザイン。
+
+結局、一番しっくりくるのは
+「若く見える服」より
+「今の自分にちゃんと合う服」な気がする。
+
+40代になって、
+服選びで変わったことってある？
+
+#40代ファッション #ジャケット
+```
+
+### Edit Notes
+
+- Candidate A をベースに語り口をさらにシンプルに整理。
+- 「若作りに見えない」表現を排除し、「若く見せようとすると逆に難しい」という観察に置き換え。
+- 短い並列表現で視覚的に読みやすくした。
+- CTA は経験共有型を維持。
+
+---
+
 ## Similarity Review
 
 - Overall similarity risk: `low`
@@ -168,7 +199,7 @@ Tシャツに合わせるとカジュアルすぎて、
 ## CTA Fit
 
 - desired_cta_style: `reply / discussion / experience_sharing`
-- Actual CTA: `40代になって変えた服選びってある？`
+- Actual CTA: `40代になって、服選びで変わったことってある？`
 - Fit: `good`
 
 ### Notes
@@ -182,13 +213,35 @@ Tシャツに合わせるとカジュアルすぎて、
 Please check one:
 
 - [ ] **Approved as-is**
-- [ ] **Approved with edits**
+- [x] **Approved with edits**
 - [ ] **Rejected**
 - [ ] **Regenerate required**
 
 ### Decision Notes
 
-[APPROVER_DECISION_NOTES]
+- Candidate A をベースに Human edited final とした。
+- 最終採用テキスト:
+
+  ```text
+  40代のジャケットって、
+  若く見せようとすると逆に難しい。
+
+  細すぎるシルエット。
+  合ってない肩幅。
+  頑張ってる感のあるデザイン。
+
+  結局、一番しっくりくるのは
+  「若く見える服」より
+  「今の自分にちゃんと合う服」な気がする。
+
+  40代になって、
+  服選びで変わったことってある？
+
+  #40代ファッション #ジャケット
+  ```
+
+- selected_candidate_id: `human-edited-final`
+- 投稿前状態を維持。posted_at / post_url / metrics は未入力。
 
 ---
 
