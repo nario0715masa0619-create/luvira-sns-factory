@@ -141,6 +141,41 @@
 
 ---
 
+## Human Edited Final Candidate
+
+**Status**: `SELECTED`
+
+```text
+40代でジャケットを選ぶなら、
+値段を見る前に、試着室でここを確認したい。
+
+肩の縫い目が、肩先から大きくズレていないか。
+
+ボタンを留めたとき、
+胴回りに強い引っ張りや大きなシワが出ていないか。
+
+ビジネス寄りなら、
+シャツの袖がジャケットから約1〜1.5cm見えるのも
+バランスを見る目安のひとつ。
+
+高いジャケットでも、
+サイズが合ってなければもったいない。
+
+次に試着するとき、どこから見る？
+
+#40代ファッション #ジャケット
+```
+
+### Edit Notes
+
+- Candidate A をベースに改訂。
+- 冒頭を「値段を見る前に、試着室でここを確認したい」とより直接的に。
+- 3つのチェックポイントを短い段落に分割し、明示的List Formatを避ける。
+- 「約1〜1.5cm」という範囲表現を維持。
+- 締めくくりに「高いジャケットでも、サイズが合ってなければもったいない」を追加。
+
+---
+
 ## Similarity Review
 
 - Overall similarity risk: `low`
@@ -188,7 +223,7 @@
 ## CTA Fit
 
 - desired_cta_style: `reply / discussion / experience_sharing`
-- Actual CTA: `次に試着するとき、自分ならまずどこを確認する？`
+- Actual CTA: `次に試着するとき、どこから見る？`
 - Fit: `good`
 
 ### Notes
@@ -202,13 +237,39 @@
 Please check one:
 
 - [ ] **Approved as-is**
-- [ ] **Approved with edits**
+- [x] **Approved with edits**
 - [ ] **Rejected**
 - [ ] **Regenerate required**
 
 ### Decision Notes
 
-[APPROVER_DECISION_NOTES]
+- Candidate A をベースに Human edited final とした。
+- 最終採用テキスト:
+
+  ```text
+  40代でジャケットを選ぶなら、
+  値段を見る前に、試着室でここを確認したい。
+
+  肩の縫い目が、肩先から大きくズレていないか。
+
+  ボタンを留めたとき、
+  胴回りに強い引っ張りや大きなシワが出ていないか。
+
+  ビジネス寄りなら、
+  シャツの袖がジャケットから約1〜1.5cm見えるのも
+  バランスを見る目安のひとつ。
+
+  高いジャケットでも、
+  サイズが合ってなければもったいない。
+
+  次に試着するとき、どこから見る？
+
+  #40代ファッション #ジャケット
+  ```
+
+- selected_candidate_id: `human-edited-final`
+- 投稿前状態を維持。posted_at / post_url / metrics_due_at / metrics は未入力。
+- 24h metrics の取得を実験成立条件とする。
 
 ---
 
@@ -216,7 +277,7 @@ Please check one:
 
 If "Approved with edits" or "Regenerate required" is selected, describe the required changes here:
 
-[EDIT_INSTRUCTIONS]
+- Candidate A ベースで改訂済み。詳細は上記 Decision Notes 参照。
 
 ---
 

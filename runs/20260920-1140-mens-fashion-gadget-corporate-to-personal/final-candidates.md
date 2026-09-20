@@ -124,16 +124,51 @@
 
 ## Recommended Candidate
 
-**Candidate A**
+**Candidate A**（Human edited final ベース）
 
 ### Selection Reason
 
 1. **Strongest practical hook**: 「値段より試着室で見るところが変わる」は、読者に「読んだ直後に使える情報がある」と感じさせる。
-2. **Clear information density**: 肩、ボタン周り、袖の3点を段落ごとに自然に配置。明示的List Formatを避けつつ実用性を維持。
-3. **Best balance of fact and tone**: 「目安」「サイン」など条件付き表現で、説教調にならない。
-4. **CTA fits without distraction**: 最後の問いが本文の情報を邪魔しない。
+2. **Information density is high while avoiding explicit list format.**
+3. **Conditional phrasing ("目安", "サイン") avoids prescriptive/fashion-critic tone.**
+4. **CTA "自分ならまずどこを確認する？" fits the reply/discussion style without distracting from the practical info.**
 
 > Candidate B も自然な語り口で良いが、実用情報としてはやや間接的。Candidate C は冒頭が並列表現に近く、List Formatリスクが高い。
+
+---
+
+## Human Edited Final Candidate
+
+**Status**: `SELECTED`
+
+```text
+40代でジャケットを選ぶなら、
+値段を見る前に、試着室でここを確認したい。
+
+肩の縫い目が、肩先から大きくズレていないか。
+
+ボタンを留めたとき、
+胴回りに強い引っ張りや大きなシワが出ていないか。
+
+ビジネス寄りなら、
+シャツの袖がジャケットから約1〜1.5cm見えるのも
+バランスを見る目安のひとつ。
+
+高いジャケットでも、
+サイズが合ってなければもったいない。
+
+次に試着するとき、どこから見る？
+
+#40代ファッション #ジャケット
+```
+
+### Edit Notes
+
+- Candidate A をベースに、冒頭をさらに直接的に改訂。
+- 「値段を見る前に、試着室でここを確認したい」で実用性を強調。
+- 3つのチェックポイントを短い段落に分け、明示的List Formatを避ける。
+- 「約1〜1.5cm」という範囲表現を維持し、絶対値を避ける。
+- 締めくくりに「高いジャケットでもサイズが合ってなければもったいない」を追加し、共感と実用性を両立。
 
 ---
 
@@ -159,10 +194,10 @@
 
 ## Human Approval Status
 
-- [ ] Candidate A approved
+- [x] Candidate A approved（Human edited final として採用）
 - [ ] Candidate B approved
 - [ ] Candidate C approved
 - [ ] Edit requested
-- [ ] Regenerate required
+- [ ] Regenerate requested
 
 > Do not post until human approval is recorded. Strict 24h measurement is required after posting.
