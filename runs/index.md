@@ -2,12 +2,12 @@
 
 ## Summary
 
-- generated_at: `2026-09-23T17:50:08.570828+09:00`
-- total_runs: `10`
-- visible_runs: `10`
+- generated_at: `2026-09-23T19:40:34.854552+09:00`
+- total_runs: `11`
+- visible_runs: `11`
 - archived_runs: `0`
 - warning_count: `1`
-- pending_approval_count: `3`
+- pending_approval_count: `4`
 - posted_count: `4`
 - metrics_due_count: `4`
 - metrics_recorded_count: `2`
@@ -28,6 +28,7 @@
 | [20260914-1426-mens-fashion-gadget-corporate-to-personal](./20260914-1426-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | posted | candidate-b | True | approved | 2026-09-14T22:08:00+09:00 | 2026-09-15T22:08:00+09:00 | - | 2026-09-17T15:07:17.214439+09:00 |
 | [20260917-1516-mens-fashion-gadget-corporate-to-personal](./20260917-1516-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | posted | human-edited-final | True | approved | 2026-09-17T15:26:00+09:00 | 2026-09-18T15:26:00+09:00 | - | 2026-09-23T17:36:15.941830+09:00 |
 | [20260920-1140-mens-fashion-gadget-corporate-to-personal](./20260920-1140-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | posted | human-edited-final | True | approved | 2026-09-21T00:22:00+09:00 | 2026-09-22T00:22:00+09:00 | - | 2026-09-23T17:37:51.080197+09:00 |
+| [20260923-1600-mens-fashion-gadget-corporate-to-personal](./20260923-1600-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | corporate | personal | pending_approval | - | False | pending | - | - | - | 2026-09-23T19:37:43.387514+09:00 |
 
 ## Pending Approval
 
@@ -36,6 +37,7 @@
 | [20260906-1000-system-dev-corporate-to-personal](./20260906-1000-system-dev-corporate-to-personal/) | AI活用型短納期システム開発 | candidate-03 | pending | 2026-09-06T13:42:55.967747+09:00 |
 | [20260906-1848-system-dev-corporate-to-personal](./20260906-1848-system-dev-corporate-to-personal/) | AI活用型短納期システム開発 | candidate-01 | pending | 2026-09-06T19:02:26.198462+09:00 |
 | [20260907-0751-mens-fashion-gadget-corporate-to-personal](./20260907-0751-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | candidate-03 | pending | 2026-09-07T07:55:34.300481+09:00 |
+| [20260923-1600-mens-fashion-gadget-corporate-to-personal](./20260923-1600-mens-fashion-gadget-corporate-to-personal/) | 40代男性向けファッション・ガジェット情報発信 | - | pending | 2026-09-23T19:37:43.387514+09:00 |
 
 ## Metrics Due
 
