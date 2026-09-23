@@ -23,22 +23,22 @@
 | URL | `none` | `none` | **EXACT MATCH** |
 | CTA style | `reply / discussion / experience_sharing` | `reply / discussion / experience_sharing` | **EXACT MATCH** |
 | information_structure | `empathy / awareness` | `empathy / awareness` | **EXACT MATCH** |
-| post length | ~130 characters (body) | ~130–145 characters | **NEAR MATCH** |
+| post length | ~130 characters (body) | ~130 characters (body, identical text) | **EXACT MATCH** |
 | posting_time | `22:41 JST` | `22:40–22:45 JST` | **NEAR MATCH** |
-| tone | 観察・気づきの個人口調 | 観察・気づきの個人口調 | **NEAR MATCH** |
-| hook structure | 穏やかな対比フック（服 vs 身だしなみ） | 穏やかな対比フック | **NEAR MATCH** |
+| tone | 観察・気づきの個人口調 | 観察・気づきの個人口調 (identical text) | **EXACT MATCH** |
+| hook structure | 穏やかな対比フック（服 vs 身だしなみ） | 穏やかな対比フック（服 vs 身だしなみ, identical text) | **EXACT MATCH** |
 
 ## Notes
 
 - No control is classified as **INTENTIONAL DIFFERENCE**.
 - No control is classified as **UNKNOWN**.
-- Posting time band is a near match because the exact minute cannot be guaranteed, but the band is intentionally matched to OPS-005.
-- Post length is a near match because wording refresh is permitted while preserving rhythm and information density.
+- Posting time band is a near match because the exact minute cannot be guaranteed before actual posting, but the band is intentionally matched to OPS-005.
+- Post length, tone, and hook structure are exact matches because the final selected text is identical to OPS-005 `selected_candidate_text` in run.json representation.
 
 ## Replication Fidelity Summary
 
-- EXACT MATCH: 12 items
-- NEAR MATCH: 4 items
+- EXACT MATCH: 15 items
+- NEAR MATCH: 1 item
 - INTENTIONAL DIFFERENCE: 0 items
 - UNKNOWN: 0 items
 

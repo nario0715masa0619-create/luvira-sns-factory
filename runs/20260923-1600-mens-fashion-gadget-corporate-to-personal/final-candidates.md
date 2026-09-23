@@ -48,6 +48,7 @@
 - Hashtags: `#40代ファッション #身だしなみ`
 - Image: none
 - Replication fidelity: highest
+- Status: **SELECTED**
 
 ## Candidate B — Wording Refresh (Same Structure)
 
@@ -75,6 +76,7 @@
 - Hashtags: `#40代ファッション #身だしなみ`
 - Image: none
 - Replication fidelity: high (wording refreshed, rhythm preserved)
+- Status: not selected
 
 ## Candidate C — Slightly Softer Hook
 
@@ -102,6 +104,7 @@
 - Hashtags: `#40代ファッション #身だしなみ`
 - Image: none
 - Replication fidelity: high
+- Status: not selected
 
 ---
 

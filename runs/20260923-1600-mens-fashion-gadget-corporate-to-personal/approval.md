@@ -141,14 +141,17 @@ Candidates are documented in `final-candidates.md`:
 
 Please check one:
 
-- [ ] **Approved as-is**
+- [x] **Approved as-is**
 - [ ] **Approved with edits**
 - [ ] **Rejected**
 - [ ] **Regenerate required**
 
 ### Decision Notes
 
-[APPROVER_DECISION_NOTES]
+- selected_candidate_id: `candidate-a`
+- Final Candidate is a close replication of OPS-005 selected text.
+- OPS-005 selected_candidate_text and OPS-009 Candidate A are identical in run.json representation.
+- Status remains pre-post (`posted_at`, `post_url`, `metrics_due_at`, and metrics are null/unmeasured).
 
 ---
 
