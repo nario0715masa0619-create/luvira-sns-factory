@@ -201,19 +201,25 @@ A hypothesis or pattern should only be promoted out of `pilot / draft` status wh
 - [x] Human-in-the-loop preserved: final copy not generated; approval required.
 - [x] Canonical knowledge not promoted: no winning-pattern updates.
 
-## 13. Next Steps
+## 13. Revision Note
 
-1. Human reviewer confirms or rejects the OPS-009 recommendation (C2 H006).
+**2026-09-23 Human Review Follow-up**: The initial recommendation (C2 H006) was re-evaluated. The Human Reviewer identified that the project is in **Experiment Debt** — 0 comparable experiments out of 7 attempts — and that adding a new content angle would increase debt risk rather than reduce it. The revised recommendation is **Candidate B: H003 爪・髪・香り replication with strict 24h measurement**. See full follow-up in `docs/pilots/ops009-autonomous-hypothesis-cycle-follow-up.md` and the proposed measurement contract in `docs/measurement-contract-proposal.md`.
+
+## 14. Next Steps
+
+1. Human reviewer confirms or rejects the **revised** OPS-009 recommendation (H003 replication) and the measurement contract proposal.
 2. If approved, create OPS-009 run folder with standard pipeline.
 3. Generate candidates, perform fact-check / research, run market judge, risk review, and human approval.
-4. After posting, enforce strict 24h measurement.
-5. Use OPS-009 result as the first data point in the next Autonomous Hypothesis Cycle.
+4. After posting, enforce the strict 24h measurement contract.
+5. Use OPS-009 result as the first comparable data point in the next Autonomous Hypothesis Cycle.
 
 ---
 
 - artifact_type: `autonomous_hypothesis_cycle_pilot`
 - product_slug: `mens-fashion-gadget`
 - pilot_date: `2026-09-23`
-- recommended_ops: `OPS-009`
-- recommended_hypothesis: `H006`
+- revised_follow_up_date: `2026-09-23`
+- initial_recommended_ops: `OPS-009`
+- initial_recommended_hypothesis: `H006`
+- revised_recommended_hypothesis: `H003`
 - human_review_required: `true`

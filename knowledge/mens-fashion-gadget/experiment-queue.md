@@ -22,9 +22,9 @@
 | 2 | H009 | OPS-006 | 営業/経営者の第一印象 | ビジネス文脈での反応を検証するため。content_angle のみ変更 | H003 とは異なる切り口 | X | analyzed | 24h metrics missed。delayed observation のみ。次回 24h 計測徹底。 |
 | 3 | H007 | OPS-007 | 若作りしないジャケット | ファッション寄りの反応を検証するため | H003/H009 とは異なる切り口 | X | posted | 24h metrics missed; delayed observation only。 |
 | 4 | H007 | OPS-008 | 若作りしないジャケット（実用情報型） | information_structure 変更の効果を検証するため | H007 連続 | X | posted | information_structure=practical_information。24h metrics missed; near-24h only。 |
-| 5 | H006 | OPS-009 | ワイヤレスイヤホン | ガジェット単体反応を検証するため | H007 とは異なる切り口 | X | planned | OPS-009 推奨候補。strict 24h measurement を実験成立条件とする。 |
-| 6 | H003 | OPS-010 | 爪・髪・香り | 清潔感軸の反応を clean に測定するため | H006 後に実施 | X | planned | 候補。delayed observation で engagement あり。 |
-| 7 | H002 | OPS-011 | 靴の手入れ（画像あり） | text-only で弱かったため、画像ありで再検証の余地あり | H006/H003 から時間を空ける | X | planned | 画像あり・ビフォーアフター前提。Control 変更のため後回し。 |
+| 5 | H003 | OPS-009 | 爪・髪・香り | Experiment Debt 解消のため、strict 24h measurement で再検証 | H007 連続後の角度分散 | X | planned | OPS-009 推奨候補（改訂版）。Measurement Recovery / Replication Strategy。 |
+| 6 | H006 | OPS-010 | ワイヤレスイヤホン | ガジェット単体反応を検証するため | H003 後に実施 | X | planned | Exploration Strategy。strict measurement 実績後に再検討。 |
+| 7 | H002 | OPS-011 | 靴の手入れ（画像あり） | text-only で弱かったため、画像ありで再検証の余地あり | H003/H006 から時間を空ける | X | planned | 画像あり・ビフォーアフター前提。Control 変更のため後回し。 |
 
 ## Notes
 
@@ -37,3 +37,4 @@
 - **2026-09-14 Phase 3-E 更新**: OPS-005 は 24h 計測を失念し result_label=non_comparable。OPS-006 では既存Control条件を維持したまま content_angle のみを H009 営業/経営者の第一印象 に変更。H007 若作りしないジャケット、H003 爪・髪・香り再検証は Experiment Queue に候補として残す。人間承認後に確定。
 - **2026-09-17 Phase 3-F 更新**: OPS-006 も 24h 計測を失念。result_label=non_comparable。次回 OPS-007 は H007 若作りしないジャケット を採用。content_angle のみ変更。24h 計測を徹底する。
 - **2026-09-23 Phase 3-G 更新**: OPS-007 / OPS-008 ともに測定不完全。OPS-009 では H006 ワイヤレスイヤホン を採用。content_angle のみ変更。H003 / H002 画像ありは次回以降の候補として保留。
+- **2026-09-23 Phase 3-G 改訂**: Human Review 指摘を受け、OPS-009 を H006 から **H003 爪・髪・香りの strict 24h 再検証** に変更。理由は Experiment Debt（0 comparable / 7 attempts）。測定Contractは `docs/measurement-contract-proposal.md` を参照。H006 / H002 画像ありは Evidence 蓄積後に再検討。

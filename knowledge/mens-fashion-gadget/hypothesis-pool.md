@@ -29,11 +29,11 @@
 |---------------|---------------|---------------|------------------|-----------------|------|----------|--------|--------------|-------|
 | H001 | バッグの中身 | 40代男性 / 経営者 / 営業職 | 自分もバッグの中身を整えたい / コメントしたい | replies / bookmarks | 投稿が似通いやすい | medium | no_signal | OPS-002, OPS-003 | OPS-002 late measurement: impressions=149, engagement=0。1投稿だけでrejectせず、即座の再投稿は避ける。OPS-003は重複により保留 |
 | H002 | 靴の手入れ | 40代男性 / 経営者 / 営業職 | 自分も靴を手入れしようと思う / 保存したい | bookmarks / replies | 説教臭くなる可能性 | medium | no_signal | OPS-004 | OPS-004: impressions=9, engagement=0, ratio_vs_OPS002=0.0604, raw_diff=-140. Do not retire after one run; avoid immediate repeat unless image-based test. |
-| H003 | 爪・髪・香り | 40代男性 / 経営者 / 営業職 | 身だしなみを見直したい / コメントしたい | replies / bookmarks | 清潔感訴求が上から目線になる可能性 | high | untested | - | OPS-005第一候補。清潔感軸の次の検証 |
+| H003 | 爪・髪・香り | 40代男性 / 経営者 / 営業職 | 身だしなみを見直したい / コメントしたい | replies / bookmarks | 清潔感訴求が上から目線になる可能性 | high | testing | OPS-005（non-comparable）, OPS-009（planned） | OPS-009 推奨候補。strict 24h measurement で再検証予定。delayed observation で engagement あり。
 | H004 | 薄型財布・キーケース | 40代男性 / 経営者 / 営業職 | 小物を買い替えたい / 保存したい | bookmarks / likes | H001と近く重複しやすい | medium | paused | OPS-002, OPS-003 | H001と近いため一時保留 |
 | H005 | ガジェットポーチ・ケーブル整理 | 40代男性 / 経営者 / 営業職 | バッグの中を整理したい / 保存したい | bookmarks / replies | H001と近く重複しやすい | medium | paused | OPS-002, OPS-003 | H001と近いため一時保留 |
-| H006 | ワイヤレスイヤホン | 40代男性 / 経営者 / 営業職 | 通勤・移動用ガジェットを見直したい | likes / bookmarks | ガジェット単体だと差別化が弱い | high | testing | OPS-009（planned） | OPS-009 推奨候補。strict 24h measurement を実験成立条件とする。
+| H006 | ワイヤレスイヤホン | 40代男性 / 経営者 / 営業職 | 通勤・移動用ガジェットを見直したい | likes / bookmarks | ガジェット単体だと差別化が弱い | medium | paused | - | OPS-009 初期推奨候補だったが、Human Review により H003 再検証に変更。Evidence 蓄積後に再検討。
 | H007 | 若作りしないジャケット | 40代男性 / 経営者 / 営業職 | 服選びを見直したい / 保存したい | bookmarks / replies | ファッション助言が偉そうに見える可能性 | high | testing | OPS-007, OPS-008 | OPS-007 delayed 39 imp / 1 like / 1 reply; OPS-008 near-24h 22 imp / 0 engagement。両方 measurement window 不一致のため inconclusive。当面 OPS-009 以降は H007 を避けて角度分散。 |
 | H008 | 40代NGファッション | 40代男性 / 経営者 / 営業職 | 自分も気をつけようと思う / コメントしたい | impressions / replies | ネガティブ訴求が強くなりすぎる可能性 | medium | untested | - | - |
-| H009 | 営業/経営者の第一印象 | 40代男性 / 経営者 / 営業職 | 仕事での見た目を整えたい / 保存したい | profile_clicks / follows / replies | ビジネス色が強すぎる可能性 | medium | testing | OPS-006 | OPS-006 posted but 24h metrics missed。delayed observation only（26 impressions / 1 like / 1 reply / 0 repost）。inconclusive; re-test deferred after H006 / H003 clean runs。 |
+| H009 | 営業/経営者の第一印象 | 40代男性 / 経営者 / 営業職 | 仕事での見た目を整えたい / 保存したい | profile_clicks / follows / replies | ビジネス色が強すぎる可能性 | medium | testing | OPS-006 | OPS-006 posted but 24h metrics missed。delayed observation only（26 impressions / 1 like / 1 reply / 0 repost）。inconclusive; re-test deferred after H003 / H006 clean runs。 |
 | H010 | 買ってよかった小物3選 | 40代男性 / 経営者 / 営業職 | 真似したい / 買いたい / 保存したい | bookmarks / likes | 実体験の捏造に注意 | medium | untested | - | 実際に使ったものに限定するのが望ましい |
