@@ -61,4 +61,5 @@ Observation → Possible Explanation → Hypothesis → Experiment Design → Re
 
 1. `2026-09-20` — Concept added to backlog.
 2. `2026-09-23` — Pilot executed for OPS-009; artifact `docs/pilots/ops009-autonomous-hypothesis-cycle-pilot.md` created.
-3. Next — Validate the engine's recommendation with OPS-009 strict 24h measurement, then iterate.
+3. `2026-09-23` — Human Review Follow-up completed. Initial H006 recommendation revised to **H003 replication** after Experiment Debt analysis. Design learning added: engine must balance Explore / Replicate / Recover Measurement / Exploit modes. Follow-up artifact `docs/pilots/ops009-autonomous-hypothesis-cycle-follow-up.md` and measurement contract proposal `docs/measurement-contract-proposal.md` created.
+4. Next — Validate the revised recommendation and measurement contract with OPS-009 strict 24h measurement, then iterate.
