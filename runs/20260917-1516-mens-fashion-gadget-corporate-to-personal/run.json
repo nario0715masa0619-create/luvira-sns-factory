@@ -1,7 +1,7 @@
 {
   "run_id": "20260917-1516-mens-fashion-gadget-corporate-to-personal",
   "created_at": "2026-09-17T15:16:07.252835+09:00",
-  "updated_at": "2026-09-17T15:22:32.177152+09:00",
+  "updated_at": "2026-09-23T17:36:15.941830+09:00",
   "product_service": "40代男性向けファッション・ガジェット情報発信",
   "product_slug": "mens-fashion-gadget",
   "client_context": {
@@ -34,7 +34,7 @@
     "assisted_generation": "Helper-assisted run; AI execution still performed by a human.",
     "archived_experiment": "Stored historical experiment, not under active development."
   },
-  "status": "pending_approval",
+  "status": "posted",
   "current_step": null,
   "steps": [
     {
@@ -128,25 +128,34 @@
       "notes": ""
     }
   ],
-  "final_verdict": null,
+  "final_verdict": "non_comparable",
   "selected_candidate_id": "human-edited-final",
   "selected_candidate_text": "40代のジャケットって、\n若く見せようとすると逆に難しい。\n\n細すぎるシルエット。\n合ってない肩幅。\n頑張ってる感のあるデザイン。\n\n結局、一番しっくりくるのは\n「若く見える服」より\n「今の自分にちゃんと合う服」な気がする。\n\n40代になって、\n服選びで変わったことってある？\n\n#40代ファッション #ジャケット",
   "human_approved": true,
   "approval_status": "approved",
   "approved_by": "human",
   "approved_at": "2026-09-17T15:22:32.177152+09:00",
-  "posted_at": null,
+  "posted_at": "2026-09-17T15:26:00+09:00",
   "post_url": null,
-  "metrics_due_at": null,
+  "metrics_due_at": "2026-09-18T15:26:00+09:00",
   "impressions_24h": null,
   "engagement_24h": null,
   "clicks_24h": null,
   "replies_24h": null,
-  "notes": "OPS-007 run initialized. Hypothesis H007: 若作りしないジャケット. 1-variable experiment: content_angle only. Canonical Control maintained. Candidate A approved as human-edited final. Status remains pending_approval until posted.",
+  "notes": "OPS-007 run initialized. Hypothesis H007: 若作りしないジャケット. 1-variable experiment: content_angle only. Canonical Control maintained. Candidate A approved as human-edited final. Status remains pending_approval until posted.\\n\\nOPS-007 posting recorded. Posted at 2026-09-17T15:26:00+09:00. Delayed observation: impressions=39, likes=1, replies=1, reposts=0 (exact observed_at not provided). 24h metrics missed. Result: non_comparable. No formal ratio comparison to OPS-002.",
   "ops_id": "OPS-007",
   "hypothesis_id": "H007",
   "content_angle": "若作りしないジャケット",
   "target_tag": "#40代ファッション",
   "content_angle_tag": "#ジャケット",
-  "hashtag_count": 2
+  "hashtag_count": 2,
+  "measurement_window": "delayed_observation",
+  "measurement_target": "strict_24h_preferred",
+  "measurement_status": "24h_missed_delayed_observation_recorded",
+  "likes_24h": null,
+  "comments_24h": null,
+  "reposts_24h": null,
+  "bookmarks_24h": null,
+  "profile_clicks_24h": null,
+  "follows_24h": null
 }

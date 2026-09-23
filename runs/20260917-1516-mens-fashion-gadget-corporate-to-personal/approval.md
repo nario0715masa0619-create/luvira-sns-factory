@@ -273,21 +273,26 @@ Before posting, confirm all of the following:
 
 ## Posting Record
 
-- posted_at: ``
+- posted_at: `2026-09-17T15:26:00+09:00`
 - post_url: ``
-- posted_by: ``
+- posted_by: `human`
 - platform: `X`
 
 ---
 
 ## 24h Metrics Record
 
-- metrics_due_at: ``
-- impressions_24h: ``
-- engagement_24h: ``
-- replies_24h: ``
-- clicks_24h: ``
-- notes: `Not posted yet. Metrics pending.`
+- metrics_due_at: `2026-09-18T15:26:00+09:00`
+- measurement_status: `24h_missed_delayed_observation_recorded`
+- impressions_24h: `missed`
+- engagement_24h: `missed`
+- replies_24h: `missed`
+- clicks_24h: `missed`
+- delayed_observation_impressions: `39`
+- delayed_observation_likes: `1`
+- delayed_observation_replies: `1`
+- delayed_observation_reposts: `0`
+- notes: `24h metrics missed; delayed observation only. Not comparable to OPS-002.`
 
 ---
 
