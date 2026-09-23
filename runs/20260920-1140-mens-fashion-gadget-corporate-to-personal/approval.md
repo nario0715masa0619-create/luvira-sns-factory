@@ -301,21 +301,27 @@ Before posting, confirm all of the following:
 
 ## Posting Record
 
-- posted_at: ``
-- post_url: ``
-- posted_by: ``
+- posted_at: `2026-09-21T00:22:00+09:00`
+- post_url: `https://x.com/ritsu_opt/status/2101693388466876709?s=20`
+- posted_by: `human`
 - platform: `X`
 
 ---
 
 ## 24h Metrics Record
 
-- metrics_due_at: ``
-- impressions_24h: ``
-- engagement_24h: ``
-- replies_24h: ``
-- clicks_24h: ``
-- notes: `Not posted yet. Strict 24h measurement is required after posting.`
+- metrics_due_at: `2026-09-22T00:22:00+09:00`
+- measurement_window: `near_24h_observation`
+- measurement_status: `24h_missed_near_24h_observation_recorded`
+- impressions_24h: `missed`
+- engagement_24h: `missed`
+- replies_24h: `missed`
+- clicks_24h: `missed`
+- near_24h_observation_impressions: `22`
+- near_24h_observation_likes: `0`
+- near_24h_observation_replies: `0`
+- near_24h_observation_reposts: `0`
+- notes: `Strict 24h measurement missed (recorded ~24h42m). Observed 22/0/0/0. Marked non-comparable; no formal ratio vs OPS-002 or OPS-007.`
 
 ---
 
